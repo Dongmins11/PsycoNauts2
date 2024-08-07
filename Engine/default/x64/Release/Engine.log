@@ -1,0 +1,375 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_AnimModel.hlsl(440,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_AnimModel.hlsl(727,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_AnimModel.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_BRDF.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Calculation.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Cube.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl(272,22-46): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl(273,22-48): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl(318,22-46): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl(319,22-48): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl(380,2-56): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_EffectModel.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_EffectRect.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Line.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl(526,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl(526,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl(902,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl(650,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl(526,21-105): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Model.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_PointInstance.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(1731,12-95): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(2357,3-45): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(2372,3-44): warning X3206: implicit truncation of vector type
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(520,13-38): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(854,15-39): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(1181,19-80): warning X3570: gradient instruction used in a loop with varying iteration, forcing loop to unroll
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl(1292,26-73): warning X3570: gradient instruction used in a loop with varying iteration, forcing loop to unroll
+D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Calculation.hlsl(252,10-52): warning X4121: gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Rect.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_RectInstance.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Terrain.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Trail.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PsycoNauts2\Engine\bin\Shader_Triangle.cso
+  Animation.cpp
+..\private\Animation.cpp(111): warning C4267: '=': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Animation.cpp(124): warning C4244: '초기화 중': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Animation.cpp(188): warning C4267: '=': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Animation.cpp(201): warning C4244: '초기화 중': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AnimBone.cpp
+  AnimMeshContainer.cpp
+  Base.cpp
+  BoxCollider.cpp
+  Camera.cpp
+  CapsuleCollider.cpp
+  Cell.cpp
+  CharacterController.cpp
+..\Private\CharacterController.cpp(69): warning C4244: '인수': 'physx::PxExtended'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Collider.cpp
+  CollisionObject.cpp
+  Component.cpp
+  Component_Manager.cpp
+  ControllerBehaviorCallback.cpp
+  ControllerHitReport.cpp
+  CustomFont.cpp
+  Data_Manager.cpp
+  DebugDraw.cpp
+  EffectData.cpp
+  Effect_Manager.cpp
+  컴파일하고 있습니다...
+  Effect_Option.cpp
+  Font_Manager.cpp
+  Frustum.cpp
+  GameInstance.cpp
+  GameObject.cpp
+  Graphic_Device.cpp
+  HierarchyNode.cpp
+  Input_Device.cpp
+  Layer.cpp
+  Light.cpp
+  Light_Manager.cpp
+  MeshCollider.cpp
+  MeshContainer.cpp
+  Model.cpp
+..\private\Model.cpp(268): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Navigation.cpp
+..\private\Navigation.cpp(155): warning C4267: '인수': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NavMeshCollider.cpp
+  Object_Manager.cpp
+..\private\Object_Manager.cpp(441): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+..\private\Object_Manager.cpp(454): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  PhysXCollider.cpp
+  Picking.cpp
+  PipeLine.cpp
+  컴파일하고 있습니다...
+  QuadTree.cpp
+  QueryFilterCallback.cpp
+  Renderer.cpp
+..\private\Renderer.cpp(141): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Renderer.cpp(143): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Renderer.cpp(201): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Renderer.cpp(211): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Renderer.cpp(213): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Renderer.cpp(217): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RenderTarget.cpp
+..\private\RenderTarget.cpp(185): warning C4244: '=': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\RenderTarget.cpp(186): warning C4244: '=': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Scene.cpp
+  Scene_Manager.cpp
+  SimulationEventCallBack.cpp
+  SimulationFilterCallback.cpp
+  SoundManager.cpp
+..\private\SoundManager.cpp(29): warning C4800: 'FMOD_BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+..\private\SoundManager.cpp(157): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SphereCollider.cpp
+  Target_Manager.cpp
+  Texture.cpp
+  Timer.cpp
+  Timer_Manager.cpp
+  Transform.cpp
+..\private\Transform.cpp(442): warning C4244: '인수': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Transform.cpp(464): warning C4244: '초기화 중': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Transform.cpp(466): warning C4244: '인수': 'Engine::_double'에서 'const Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Transform.cpp(500): warning C4244: '인수': 'Engine::_double'에서 'const Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\Transform.cpp(539): warning C4244: '인수': 'Engine::_double'에서 'const Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer.cpp
+  VIBuffer_Cube.cpp
+  VIBuffer_EffectRect.cpp
+  VIBuffer_Instance.cpp
+  VIBuffer_LineStrip.cpp
+  컴파일하고 있습니다...
+  VIBuffer_PointInstance.cpp
+..\private\VIBuffer_PointInstance.cpp(179): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(180): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(181): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(187): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(188): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(233): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(234): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(235): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(241): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(242): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(287): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(288): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(289): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(295): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(296): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(357): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(358): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(359): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(365): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(366): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(427): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(428): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(429): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(435): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(436): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(467): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_PointInstance.cpp(493): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Rect.cpp
+  VIBuffer_RectInstance.cpp
+  VIBuffer_RectInstance_Clone.cpp
+  VIBuffer_Terrain.cpp
+..\private\VIBuffer_Terrain.cpp(66): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Trail.cpp
+..\private\VIBuffer_Trail.cpp(131): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_Trail.cpp(132): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_Trail.cpp(195): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\private\VIBuffer_Trail.cpp(196): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Triangle.cpp
+  PhysXScene_Manager.cpp
+..\Private\PhysXScene_Manager.cpp(115): warning C4244: '인수': 'Engine::_double'에서 'physx::PxReal'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     ..\bin\Engine.lib 라이브러리 및 ..\bin\Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+d:\psyconauts2\engine\private\navigation.cpp(96): warning C4715: 'Engine::CNavigation::OnNavigationGetY': 모든 제어 경로에서 값을 반환하지는 않습니다.
+d:\psyconauts2\engine\private\collider.cpp(222): warning C4715: 'Engine::CCollider::Collision_Sphere': 모든 제어 경로에서 값을 반환하지는 않습니다.
+d:\psyconauts2\engine\private\collider.cpp(206): warning C4715: 'Engine::CCollider::Collision_OBB': 모든 제어 경로에서 값을 반환하지는 않습니다.
+d:\psyconauts2\engine\private\collider.cpp(190): warning C4715: 'Engine::CCollider::Collision_AABB': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  All 6999 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+Effects11.lib(d3dxGlobal.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(d3dxGlobal.obj)' 또는 'D:\PsycoNauts2\Engine\bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectAPI.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectAPI.obj)' 또는 'D:\PsycoNauts2\Engine\bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectLoad.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectLoad.obj)' 또는 'D:\PsycoNauts2\Engine\bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectNonRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectNonRuntime.obj)' 또는 'D:\PsycoNauts2\Engine\bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectReflection.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectReflection.obj)' 또는 'D:\PsycoNauts2\Engine\bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectRuntime.obj)' 또는 'D:\PsycoNauts2\Engine\bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BasicEffect.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BasicEffect.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(CommonStates.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(CommonStates.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(DDSTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(DDSTextureLoader.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BinaryReader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BinaryReader.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(EffectCommon.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(EffectCommon.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(pch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(pch.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteBatch.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(PrimitiveBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(PrimitiveBatch.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteFont.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteFont.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(VertexTypes.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(VertexTypes.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(WICTextureLoader.obj)' 또는 'D:\PsycoNauts2\Engine\bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+PhysX3Extensions.lib(ExtCpuWorkerThread.obj) : warning LNK4099: 'PhysX3Extensions.pdb' PDB를 'PhysX3Extensions.lib(ExtCpuWorkerThread.obj)' 또는 'D:\PsycoNauts2\Engine\bin\PhysX3Extensions.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: 'PhysX3Extensions.pdb' PDB를 'PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj)' 또는 'D:\PsycoNauts2\Engine\bin\PhysX3Extensions.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+PhysX3Extensions.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: 'PhysX3Extensions.pdb' PDB를 'PhysX3Extensions.lib(ExtDefaultErrorCallback.obj)' 또는 'D:\PsycoNauts2\Engine\bin\PhysX3Extensions.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Engine.vcxproj -> D:\PsycoNauts2\Engine\default\..\bin\Engine.dll
+  Engine.vcxproj -> ..\bin\Engine.pdb (Full PDB)
+  D:\PsycoNauts2\Engine\bin\Engine.lib
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\Engine.dll
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\Engine.dll
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\public\Animation.h
+  D:\PsycoNauts2\Engine\public\AnimBone.h
+  D:\PsycoNauts2\Engine\public\AnimMeshContainer.h
+  D:\PsycoNauts2\Engine\public\Base.h
+  D:\PsycoNauts2\Engine\public\BoxCollider.h
+  D:\PsycoNauts2\Engine\public\Camera.h
+  D:\PsycoNauts2\Engine\public\CapsuleCollider.h
+  D:\PsycoNauts2\Engine\public\Cell.h
+  D:\PsycoNauts2\Engine\public\CharacterController.h
+  D:\PsycoNauts2\Engine\public\Collider.h
+  D:\PsycoNauts2\Engine\public\CollisionObject.h
+  D:\PsycoNauts2\Engine\public\Component.h
+  D:\PsycoNauts2\Engine\public\Component_Manager.h
+  D:\PsycoNauts2\Engine\public\ContactReportFilterShader.h
+  D:\PsycoNauts2\Engine\public\ControllerBehaviorCallback.h
+  D:\PsycoNauts2\Engine\public\ControllerHitReport.h
+  D:\PsycoNauts2\Engine\public\CustomFont.h
+  D:\PsycoNauts2\Engine\public\Data_Manager.h
+  D:\PsycoNauts2\Engine\public\DebugDraw.h
+  D:\PsycoNauts2\Engine\public\EffectData.h
+  D:\PsycoNauts2\Engine\public\Effect_Manager.h
+  D:\PsycoNauts2\Engine\public\Effect_Option.h
+  D:\PsycoNauts2\Engine\public\Engine_Defines.h
+  D:\PsycoNauts2\Engine\public\Engine_Enum.h
+  D:\PsycoNauts2\Engine\public\Engine_Function.h
+  D:\PsycoNauts2\Engine\public\Engine_Macro.h
+  D:\PsycoNauts2\Engine\public\Engine_Struct.h
+  D:\PsycoNauts2\Engine\public\Engine_Typedef.h
+  D:\PsycoNauts2\Engine\public\Font_Manager.h
+  D:\PsycoNauts2\Engine\public\Frustum.h
+  D:\PsycoNauts2\Engine\public\GameInstance.h
+  D:\PsycoNauts2\Engine\public\GameObject.h
+  D:\PsycoNauts2\Engine\public\Graphic_Device.h
+  D:\PsycoNauts2\Engine\public\HierarchyNode.h
+  D:\PsycoNauts2\Engine\public\Input_Device.h
+  D:\PsycoNauts2\Engine\public\Layer.h
+  D:\PsycoNauts2\Engine\public\Light.h
+  D:\PsycoNauts2\Engine\public\Light_Manager.h
+  D:\PsycoNauts2\Engine\public\MeshCollider.h
+  D:\PsycoNauts2\Engine\public\MeshContainer.h
+  D:\PsycoNauts2\Engine\public\Model.h
+  D:\PsycoNauts2\Engine\public\Navigation.h
+  D:\PsycoNauts2\Engine\public\NavMeshCollider.h
+  D:\PsycoNauts2\Engine\public\Object_Manager.h
+  D:\PsycoNauts2\Engine\public\PhysXCollider.h
+  D:\PsycoNauts2\Engine\public\PhysXScene_Manager.h
+  D:\PsycoNauts2\Engine\public\Picking.h
+  D:\PsycoNauts2\Engine\public\PipeLine.h
+  D:\PsycoNauts2\Engine\public\QuadTree.h
+  D:\PsycoNauts2\Engine\public\QueryFilterCallback.h
+  D:\PsycoNauts2\Engine\public\Renderer.h
+  D:\PsycoNauts2\Engine\public\RenderTarget.h
+  D:\PsycoNauts2\Engine\public\Scene.h
+  D:\PsycoNauts2\Engine\public\Scene_Manager.h
+  D:\PsycoNauts2\Engine\public\SimulationEventCallBack.h
+  D:\PsycoNauts2\Engine\public\SimulationFilterCallback.h
+  D:\PsycoNauts2\Engine\public\SoundManager.h
+  D:\PsycoNauts2\Engine\public\SphereCollider.h
+  D:\PsycoNauts2\Engine\public\Target_Manager.h
+  D:\PsycoNauts2\Engine\public\Texture.h
+  D:\PsycoNauts2\Engine\public\Timer.h
+  D:\PsycoNauts2\Engine\public\Timer_Manager.h
+  D:\PsycoNauts2\Engine\public\Transform.h
+  D:\PsycoNauts2\Engine\public\VIBuffer.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Cube.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_EffectRect.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Instance.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_LineStrip.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_PointInstance.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Rect.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_RectInstance.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_RectInstance_Clone.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Terrain.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Trail.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Triangle.h
+         75개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_AnimModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_BRDF.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Calculation.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Cube.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectRect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Line.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_PointInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_RectInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Terrain.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Trail.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Triangle.hlsl
+         14개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Defines.hpp
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_AnimModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_BRDF.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Calculation.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Cube.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectRect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Line.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_PointInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_RectInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Terrain.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Trail.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Triangle.hlsl
+         14개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Defines.hpp
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\DirectXTK.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\DirectXTKd.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\Effects11.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\Effects11d.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevel.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelAABB.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelAABBDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelCloth.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelClothDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelDynamics.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelDynamicsDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelParticles.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelParticlesDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CharacterKinematicDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CharacterKinematic_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CommonDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Common_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CookingDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Cooking_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3DEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Extensions.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3ExtensionsDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Vehicle.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3VehicleDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PsFastXmlDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PsFastXml_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxFoundationDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxFoundation_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxPvdSDKDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxPvdSDK_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxTaskDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxTask_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SceneQuery.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SceneQueryDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SimulationController.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SimulationControllerDEBUG.lib
+         38개 파일이 복사되었습니다.

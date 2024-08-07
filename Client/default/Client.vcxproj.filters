@@ -1,0 +1,3498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{5f7c0e34-a0d7-4ea2-8ced-73c12cb99f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{3adc3b50-7d01-474a-826f-66460df11d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{1c9bac6e-c65d-4afb-a4da-66f3f7967759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{5f104e8c-208c-4357-be71-dc771337922e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{13ba74b6-14b4-4d29-9997-cfe399d02a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Loading">
+      <UniqueIdentifier>{3d8b297e-62a8-4769-972f-4a05d4694328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Logo">
+      <UniqueIdentifier>{9d4240d4-45b0-4522-8482-1a5fefc8da90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Demo">
+      <UniqueIdentifier>{08b627e0-9101-4a34-89f6-fa96c52335a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Loading\00.Loader">
+      <UniqueIdentifier>{a6848c5e-a540-4809-aa46-e6d627579ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera">
+      <UniqueIdentifier>{b860676b-f074-4d0f-94d8-2788f7a95bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera\00.Camera_Fly">
+      <UniqueIdentifier>{31077484-8de6-40f1-9a8a-7cdfe680c5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ImGUI">
+      <UniqueIdentifier>{830527df-f800-4f7e-b6a1-4251ff001bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ImGUI\99.defaults">
+      <UniqueIdentifier>{019e00cc-a429-493d-9b11-a7f2012d186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ImGUI\98.Manager">
+      <UniqueIdentifier>{c11aa8a9-1946-484f-bfc6-6612efce2d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player">
+      <UniqueIdentifier>{c11a5b5d-9cb1-42b4-8798-3c4f81d9348b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.SkyBox">
+      <UniqueIdentifier>{8b127c25-3850-4dac-b760-d101cd8a0662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState">
+      <UniqueIdentifier>{a7eccecb-b6e3-4450-b59a-be63a8e51637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim">
+      <UniqueIdentifier>{2fc710df-c1ff-4f47-8fa7-cf4da1cd6a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim">
+      <UniqueIdentifier>{a1e29dcb-8293-47b9-8c6d-a9722d501510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_HitAnim">
+      <UniqueIdentifier>{fa731173-a850-40d0-99b1-83934fad7e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.StaticMesh">
+      <UniqueIdentifier>{140dc5a8-3d50-430c-988e-6caadef3ce4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster">
+      <UniqueIdentifier>{0bd7d5cd-47a4-41cd-bfb7-71dc6935f4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI">
+      <UniqueIdentifier>{b4ad40bc-c1ce-473c-96d7-510c932f4d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Plane">
+      <UniqueIdentifier>{5afee3e4-9aec-43e4-b635-7e93b988258f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move">
+      <UniqueIdentifier>{bb5fb44c-56b2-40c9-91a0-738ef97ea81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack">
+      <UniqueIdentifier>{d17c6f0d-08c5-4bd3-8666-8baacf43e9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Ball">
+      <UniqueIdentifier>{5c8561a0-cc54-4fe0-a32c-59a3d6c2f6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_ComboAttackAnim">
+      <UniqueIdentifier>{27f3d164-1c05-40f6-aef9-594971556e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Dash">
+      <UniqueIdentifier>{2838be81-14d5-4a9c-8d75-5b57b5cd3eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_DashAttack">
+      <UniqueIdentifier>{5a027a9e-75e0-43bc-b86a-a4c574b4b23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_DownAttack">
+      <UniqueIdentifier>{1f09e672-223b-4ea9-a7eb-23a27819fb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_FallAnim">
+      <UniqueIdentifier>{4b8f1a18-1e82-4918-98b9-0f48a594bf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Floting">
+      <UniqueIdentifier>{94bab0e8-e354-4938-9185-cbfa56960212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab">
+      <UniqueIdentifier>{3b590112-283a-49f2-8f4e-07030141242f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab\Grab_Attack">
+      <UniqueIdentifier>{31227064-e8f8-4f15-a944-9327d0d59363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab\Grab_Back">
+      <UniqueIdentifier>{abd80b84-e605-43a5-a90f-7e13c32dbe0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Land">
+      <UniqueIdentifier>{472fbbe9-4c0b-4615-a165-136671b36321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Pisblast">
+      <UniqueIdentifier>{b2be145e-b570-4d06-bba5-007e250ab6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_RunAnim">
+      <UniqueIdentifier>{536292af-681f-4862-9772-0f4406e1533a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_StopAnim">
+      <UniqueIdentifier>{a95e30de-e593-494d-b470-39553bcc446a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_WalkAnim">
+      <UniqueIdentifier>{89074870-90ad-48c6-92a7-96f6e9a4a0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_IdleAnim">
+      <UniqueIdentifier>{2a64f9ef-21ee-4e21-beb1-d2ddceaf6416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh">
+      <UniqueIdentifier>{6d9055ba-6df9-41fc-b993-294dc409ba97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand">
+      <UniqueIdentifier>{0818546d-8047-4f0e-b14c-2e676e91eaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand">
+      <UniqueIdentifier>{f4a06b14-5285-4cea-94c0-d77863f22c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_Ball">
+      <UniqueIdentifier>{41b3bdb9-ab9c-441a-b7a6-2611d0940f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim">
+      <UniqueIdentifier>{e31c7cef-4776-419b-92ee-49447f138578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim">
+      <UniqueIdentifier>{9f5a6f13-e027-4e6f-8c1f-1d5e9d677379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim">
+      <UniqueIdentifier>{24106f63-5f70-44d2-b561-8909bb2ee81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Chop_A">
+      <UniqueIdentifier>{ccb3c0c3-08be-4d82-952d-ff605dc459d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Chop_C">
+      <UniqueIdentifier>{c7524fa4-c297-464b-9384-57eb22548695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Default">
+      <UniqueIdentifier>{08d74d52-9b89-4732-8158-1e335699ff6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim">
+      <UniqueIdentifier>{a84eb8a3-dd31-4ecf-8f4e-2bf6bad5b804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim">
+      <UniqueIdentifier>{8dd4aa5f-721b-4151-84c3-2b1413e139c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim">
+      <UniqueIdentifier>{a8d74da6-eb38-4478-849a-6a981c3dece5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Default">
+      <UniqueIdentifier>{8af935ca-e996-4cfd-8f4a-399bcb823e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Chop_B">
+      <UniqueIdentifier>{79b3001c-7725-437d-b095-9012498b144a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Grap">
+      <UniqueIdentifier>{a4d5725a-0a73-4ffd-a42c-b550e06e6264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Grap\Toss">
+      <UniqueIdentifier>{d630801b-5b04-4b89-8a7b-3d237b011f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_BrainStom">
+      <UniqueIdentifier>{42f37c57-5e9a-423b-bb68-a93fdb8acdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Trigger">
+      <UniqueIdentifier>{0a7c5e46-3763-4e92-96c3-2e27d7383792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\99.Triggers">
+      <UniqueIdentifier>{97effdd5-f813-4b63-8638-fda558f91147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\99.Triggers\00.Sphere">
+      <UniqueIdentifier>{2c91dab1-a2f6-4352-a91b-849f7bf88899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\99.Triggers\01.PlayerTrigger_Parkour">
+      <UniqueIdentifier>{c08875da-5def-4fbc-97a9-b4a6fe07deca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_BrainWashing">
+      <UniqueIdentifier>{84da59be-d34d-4700-b1ba-85decb14b746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_Skill">
+      <UniqueIdentifier>{0e23e0cc-28d7-4f86-b385-5afd10be930b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_Skill\Skill_PsiBlast">
+      <UniqueIdentifier>{2de09e4e-1373-4f42-970d-d542e1ec7048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_Skill\Skill_Brain_Strom">
+      <UniqueIdentifier>{46251916-5561-4c49-a5a4-7d327cc45ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_Skill\Skill_Brain_Washing">
+      <UniqueIdentifier>{89487cb0-a855-4cd7-bc8e-df466a6ac566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim">
+      <UniqueIdentifier>{163c2405-e169-4596-863d-c814355dec3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim">
+      <UniqueIdentifier>{0d713403-9a9e-49aa-b8f1-f13db6a306b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Floating">
+      <UniqueIdentifier>{3fbe98d1-102b-4e4d-8008-94ff46ca76bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Slider">
+      <UniqueIdentifier>{3c568866-ad01-45fa-af61-ee3bdddd8509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Jump">
+      <UniqueIdentifier>{50c7b8a6-1b8c-40c6-a348-4cce1b7a0e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Dead">
+      <UniqueIdentifier>{5938c2f9-1bc3-4a93-a606-d5e17cf1675b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour">
+      <UniqueIdentifier>{efa6d257-8d7d-47a9-8521-7cfd0c4e5462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Dodge">
+      <UniqueIdentifier>{46fddc46-79b1-4524-872f-045669347936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Ledge">
+      <UniqueIdentifier>{e1bc2e6b-88a5-48fb-a812-5a79774a4a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Slider">
+      <UniqueIdentifier>{83d2ba55-16bd-4d10-a1d9-33d3536701e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_JumpAnim">
+      <UniqueIdentifier>{0712d86a-9444-4d88-a5f1-f48c039825b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\99.Triggers\02.PlayerTrigger_Body">
+      <UniqueIdentifier>{88a5a908-4cb2-456b-a8ed-68ed1d9ecc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\02 CensorBurly">
+      <UniqueIdentifier>{1d0442be-3ff0-4558-b616-35e5b5e95adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\01. Censor">
+      <UniqueIdentifier>{f82ca1b0-4746-42c7-b9f9-f96a30934d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\03. Doubt">
+      <UniqueIdentifier>{7982bb49-ae25-4c5e-bcae-812c558cfb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\03. Doubt\Anvil">
+      <UniqueIdentifier>{21ffeedf-d661-4a6d-8279-bc41b8eb7a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge">
+      <UniqueIdentifier>{8a6dd931-440d-4eb2-a5f8-3f1774982b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge\Book">
+      <UniqueIdentifier>{fa7addc6-e8c6-4004-a22f-325706266f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge\Weapon">
+      <UniqueIdentifier>{a68e8cf1-50cf-4343-a2f1-70faa20a1c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\05. BadIdea">
+      <UniqueIdentifier>{18d1256d-f687-42c6-8ef2-341161ee46bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\05. BadIdea\Bulb">
+      <UniqueIdentifier>{06064111-695d-4fc8-972d-2ce83373aa3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\06. Mouse">
+      <UniqueIdentifier>{a3d4615a-096a-4faa-b753-fb5a09c40b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\07. ToothFairy">
+      <UniqueIdentifier>{80e2c91f-189c-4f60-ad78-124548c7bfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\07. ToothFairy\Tooth">
+      <UniqueIdentifier>{95a14f49-b3ea-4ca1-b109-91e4d86d7d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\99. Bag">
+      <UniqueIdentifier>{21f80381-81da-41fd-a08e-f8b1846e2659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT">
+      <UniqueIdentifier>{e84333be-4e8e-49c8-93e1-257a89e837a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\CompositeNode">
+      <UniqueIdentifier>{3ed9b5a4-1ca0-4791-ba0c-98fc97e8e8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\Sequence">
+      <UniqueIdentifier>{544c3c4f-09c9-42f1-9b57-8e510c4d4559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\Selector">
+      <UniqueIdentifier>{988bee5f-53d9-405b-b448-bd771434e524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode">
+      <UniqueIdentifier>{8f73ee4c-5613-44e7-a8fc-fe65c00263bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor">
+      <UniqueIdentifier>{52397900-36ca-4842-a6ec-23bb7d833061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\00. Idle">
+      <UniqueIdentifier>{b2c15c81-1b86-4675-9e36-209a74f46a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\01. Dead">
+      <UniqueIdentifier>{065ffca9-aaf5-4e0c-a937-3bb4385d678f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\02. Spawn">
+      <UniqueIdentifier>{aa76c037-d93e-4c53-8621-20f76deafc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\03. Chase">
+      <UniqueIdentifier>{54e502aa-fe30-4db6-aea8-ba5d4c13e9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\04. Walk">
+      <UniqueIdentifier>{cb7187c7-4407-44d7-8947-a89e4088f090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\05. Run">
+      <UniqueIdentifier>{f161c2fe-f499-4d7b-bc0a-30baf8a3e811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\06. Jump">
+      <UniqueIdentifier>{d677f067-86a7-4388-8369-a19700361fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\07. Hit">
+      <UniqueIdentifier>{6cfb03bb-a542-4a5b-a5cb-90e6a0dfd210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Censor\08. Attack">
+      <UniqueIdentifier>{f4ed39cf-f182-43fa-8fb9-9b3db56d43c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly">
+      <UniqueIdentifier>{2332e8e8-3022-4acb-a35d-b7a2d00e9cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\00. Idle">
+      <UniqueIdentifier>{2296b89d-9de9-4d4e-ae90-86d35c798b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\01. Dead">
+      <UniqueIdentifier>{b44297f7-780f-4a7b-b190-b24f62492171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\02. Spawn">
+      <UniqueIdentifier>{cd9ea332-795f-49df-9374-d07f72311d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\03. Chase">
+      <UniqueIdentifier>{395ddae2-06d9-47f7-9a12-e727813bb8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\04. Walk">
+      <UniqueIdentifier>{fc973b3c-a922-48ee-ae3d-eb2fc45cdb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\05. Run">
+      <UniqueIdentifier>{ee967d85-500a-493d-9540-47d166ff4896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\06. Jump">
+      <UniqueIdentifier>{c0f9c825-8072-4a84-900d-fbe6d5d10c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\07. Hit">
+      <UniqueIdentifier>{d50e13fe-2290-48f6-b687-4037fd29bccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\08. Attack">
+      <UniqueIdentifier>{d58069c0-7245-4eda-9a47-c0d5476542f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea">
+      <UniqueIdentifier>{ef4ec4c5-8abf-4954-b74c-4413fb4941fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\00. Idle">
+      <UniqueIdentifier>{faf1cb17-68d4-47ee-86cd-f64c3e1dbad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\01. Dead">
+      <UniqueIdentifier>{35ff7017-1ad5-4e68-a895-0ccd065d7115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\02. Spawn">
+      <UniqueIdentifier>{773a8f21-af43-451e-a158-545b7b1cc5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\03. Chase">
+      <UniqueIdentifier>{76361950-1ddd-44c7-89b2-3c5cb9e4d4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\04. Walk">
+      <UniqueIdentifier>{f2cfa8f9-4969-41eb-b32d-5c9245469bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\05. Run">
+      <UniqueIdentifier>{b709a7ce-5dbe-4e4b-8bfa-733a2a423d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\06. Jump">
+      <UniqueIdentifier>{92f8bd85-71a0-4ca4-903a-5488c76a2666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\07. Hit">
+      <UniqueIdentifier>{092bd8d2-921c-4e5e-a1e6-784bf677f257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\08. Attack">
+      <UniqueIdentifier>{f6de6f61-faf3-4c51-94ed-7c207259975b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt">
+      <UniqueIdentifier>{c14a6cd7-48cf-414a-8fce-16a26107ec36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\00. Idle">
+      <UniqueIdentifier>{cc023b6c-5b46-4670-baca-d21052578d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\01. Dead">
+      <UniqueIdentifier>{f31ae532-a529-4710-84f0-a43c6f56acde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\02. Spawn">
+      <UniqueIdentifier>{3df6e661-e1e7-42b3-b932-e6c4453bc80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\03. Chase">
+      <UniqueIdentifier>{18786c3e-cc96-489f-bef9-519a791bc108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\04. Move">
+      <UniqueIdentifier>{309f9298-7f3d-41e6-a3fe-0f3dea0b5c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\05. Hit">
+      <UniqueIdentifier>{95f349e9-e4da-4942-a448-6df7b5304f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Doubt\06. Attack">
+      <UniqueIdentifier>{cb39c726-f8b7-4bc6-bd4b-017eb3d28de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge">
+      <UniqueIdentifier>{a7d5a10f-d131-4777-8b3d-dfcb83426b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Spawn">
+      <UniqueIdentifier>{f6b6c3b8-8917-4bfa-a5c6-e8c48b9d0952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Chase">
+      <UniqueIdentifier>{042eff05-0e89-426f-9374-5379be9d0997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed">
+      <UniqueIdentifier>{f1859679-a9a9-40d2-91bc-c6d6316d9cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\00. Idle">
+      <UniqueIdentifier>{c2d1c1bd-c7ce-4d1d-a3ca-9787607e701d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\01. Dead">
+      <UniqueIdentifier>{550fc597-9d09-4485-b170-084ea430f0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\02. Walk">
+      <UniqueIdentifier>{e9bf7713-123a-4583-8f5c-f1ffae693f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\03. Run">
+      <UniqueIdentifier>{19de5baa-2022-4906-bc6e-2809a96d9ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\04. Jump">
+      <UniqueIdentifier>{96b5c1f8-cb6d-43b7-8945-f012e40a1760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\05. Hit">
+      <UniqueIdentifier>{2b37b3e8-0007-4a89-bd62-f73a74523957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\06. Attack">
+      <UniqueIdentifier>{cb72cf21-0240-4417-bfee-facd007b3b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed">
+      <UniqueIdentifier>{d5d93149-abf0-466b-892c-381830c5fbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\00. Idle">
+      <UniqueIdentifier>{1edc7975-c4d6-43b3-83d8-5433b243b4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\01. Dead">
+      <UniqueIdentifier>{9a32364e-9150-47af-8165-72909e5fd25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\06. Attack">
+      <UniqueIdentifier>{0eeeab92-21af-4678-9645-ea7ca5322175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\05. Hit">
+      <UniqueIdentifier>{0634d275-01cb-4657-bb6d-9f152fd0ad14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\04. Jump">
+      <UniqueIdentifier>{eccf278c-7843-43d9-a066-c2236920d5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\03. Run">
+      <UniqueIdentifier>{eb372dfa-2924-4368-bb62-afbfec106d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\02. Walk">
+      <UniqueIdentifier>{47cd74c4-684e-4cf5-a889-20d992b975d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_LedgeJump">
+      <UniqueIdentifier>{72f42783-0400-4ab7-892f-e34ad8e3ff34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Trigger\00.WallCollision">
+      <UniqueIdentifier>{aa934d45-7f12-4783-a056-775718ba26c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation">
+      <UniqueIdentifier>{ad5c73e7-08a2-49b5-a7e3-1198fe1984d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\00.Door">
+      <UniqueIdentifier>{2536587b-66b9-4a5f-a21e-514e230ce2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\00.Door\00.NpcDoor">
+      <UniqueIdentifier>{7ac89fb0-5d62-40df-b31b-45d219154b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\00.Door\01.DoubleDoorBlocker">
+      <UniqueIdentifier>{3158492a-8b09-431f-8ad5-e1ac27711fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\00.Door\02.DoorZipper">
+      <UniqueIdentifier>{bf4add98-c790-45f1-b74d-0550efb0e136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\01.NPC">
+      <UniqueIdentifier>{8e11b161-7d55-4ce9-bb29-800a16513d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\01.NPC\00.Npc">
+      <UniqueIdentifier>{ce495c56-f108-4ba3-bdc3-0ade762430b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\01.NPC\01.Loboto">
+      <UniqueIdentifier>{96407d47-645d-4aeb-85dd-b655a9889aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\02.MoveCabinet">
+      <UniqueIdentifier>{551f5821-0558-4c0a-92a1-3d70d4f59fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect">
+      <UniqueIdentifier>{ffa7c312-13d1-4899-b10c-31fa9830e097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\00.Rect">
+      <UniqueIdentifier>{b3ef4cac-1aca-4d79-a528-cdb92d0ab3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model">
+      <UniqueIdentifier>{af800035-f8fb-4c70-a745-0b5c5b026863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\03.DonutRing">
+      <UniqueIdentifier>{ce3b950e-2137-436c-936d-46e983d183ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle">
+      <UniqueIdentifier>{7a4f09bf-b543-479b-a318-59d3d3ac2b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle\00.Rect">
+      <UniqueIdentifier>{12a0c6dc-473a-4003-b670-4d6bd283da35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle\01.Point">
+      <UniqueIdentifier>{32dabcb4-1c9f-4206-841d-9ee28efc5c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\00.Background">
+      <UniqueIdentifier>{c6d09965-395e-49a6-8aa6-ff5c94805f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\01.Loading">
+      <UniqueIdentifier>{4d80be91-d18b-4090-8ff6-aff7ba12d82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\02.Skill">
+      <UniqueIdentifier>{1e9fcc50-a8a3-4727-9906-05781d07e1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\03.Tutorial">
+      <UniqueIdentifier>{f70f01a0-86f5-4fa5-ae74-527606a27aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\03.Tutorial\00.Message">
+      <UniqueIdentifier>{0f348f71-a01e-4178-a199-219eeda04785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\05.Stage02">
+      <UniqueIdentifier>{b13954d0-0371-4d1d-a136-5a2710e6774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\05.Stage02\00.DoorLockButton">
+      <UniqueIdentifier>{4e26ceec-5230-42b2-83b4-1fc31b07df20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Item">
+      <UniqueIdentifier>{7fe6041a-d816-4a1f-8d87-6584a995c9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Item\00.HealthPack">
+      <UniqueIdentifier>{e89d4ade-9bea-4b23-9918-37d243974f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_LedgeMove">
+      <UniqueIdentifier>{2bb6c4c5-0578-4b2c-8919-b23593b8f5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\03.AnimatedShelv">
+      <UniqueIdentifier>{ef26406a-3898-4958-9b13-390935981137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\00.Rect\Once">
+      <UniqueIdentifier>{439da13a-0c92-4e66-8b14-d3835ecc585f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\00.Melee">
+      <UniqueIdentifier>{5713891a-93f4-4840-8ad0-41ad27d14384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\00.Melee\00.ChopA">
+      <UniqueIdentifier>{3cd45b68-8054-4089-a3ef-2b91edf6f16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\00.Melee\01.ChopB">
+      <UniqueIdentifier>{b2196239-6967-4537-9827-88626602e94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\00.Melee\02.ChopC">
+      <UniqueIdentifier>{fd2999ca-8f37-44a6-b922-5fdd267d75c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\00.Melee\03.TumbleAttack">
+      <UniqueIdentifier>{31eb494d-72b6-41fc-b06c-e1bc3487731b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\00.PurseRing">
+      <UniqueIdentifier>{0a03ef84-3b31-4217-ba94-34032b80ed31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\01.DizziStar">
+      <UniqueIdentifier>{4469c035-3f9d-4916-8f3d-4cc3b64cc36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\02.SpinSwipe">
+      <UniqueIdentifier>{d2e18830-b746-440a-a508-4bdd8316bc64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\04.ChargeSingleWave">
+      <UniqueIdentifier>{e4455978-f8dd-454c-9172-aa93f15c774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\05.ChargeWave">
+      <UniqueIdentifier>{1959f7dd-e1f6-43a6-a9fc-80ba498e268a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\06.ImpactWave">
+      <UniqueIdentifier>{4c0ad5fd-595f-4199-b476-8a37d1c6842b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\06.HPBar">
+      <UniqueIdentifier>{f2e8664b-8ec5-4832-b9ed-4023af4afd3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.Stage01">
+      <UniqueIdentifier>{af2eef01-1629-4a64-a200-9974016c2ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\04.Stage02">
+      <UniqueIdentifier>{d69a9813-cb27-4a09-818d-b06e7308cffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\05.Stage03">
+      <UniqueIdentifier>{ef7cf66d-9828-4ed7-a0b8-5edc0ddf2d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03">
+      <UniqueIdentifier>{b6a9e18a-1a0e-49f0-9847-d0d9fa206a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\00.Trampoline">
+      <UniqueIdentifier>{9308c061-268c-4b55-94fe-4c17ab69441f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\07.LoadingThreadData">
+      <UniqueIdentifier>{a68a2251-bfc9-4436-84f4-928a686db3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\06.FallObject">
+      <UniqueIdentifier>{4b18f90d-7466-4285-ace0-466c71b49632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\07.SildingMesh">
+      <UniqueIdentifier>{adec59d5-644b-4a22-8afb-ddaaa35611da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\PullingGrab">
+      <UniqueIdentifier>{cea9bda5-bf8a-4d42-b997-3038f31eab0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_WalkAnim\Player_WalkStop">
+      <UniqueIdentifier>{c9b7a8d5-ffbb-40a5-936c-ed4a7ab92c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\05.DemoRect">
+      <UniqueIdentifier>{80d5e63e-c3ea-4377-980f-19d21a9c8979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\05.DemoRect\OfficeWalls">
+      <UniqueIdentifier>{d4558b27-55e9-4279-9a2b-74354432e669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\01. Censor\Spawner">
+      <UniqueIdentifier>{aa239243-3b7d-4e4b-a00c-5305aa681da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\05. BadIdea\Spawner">
+      <UniqueIdentifier>{2eac0515-ce1e-4db9-9a56-25c27fca52bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge\Weaponhead">
+      <UniqueIdentifier>{e8efc36d-f7f5-4b63-9f41-c5444b0d2f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\07. Stolen">
+      <UniqueIdentifier>{4959d879-e60b-48bf-9098-596510b6d6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03">
+      <UniqueIdentifier>{1e8174f2-90bd-437e-b890-8f7c3cb56c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03\00.PlatingPlate">
+      <UniqueIdentifier>{d2fee735-80ed-43a0-9cab-e88348bd01c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09.Not_Affected_Render">
+      <UniqueIdentifier>{434cac5e-3bdb-458c-86e9-ec75ee745a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03\00.PlatingPlate\00.Phase0">
+      <UniqueIdentifier>{7bccc32c-47b6-402b-ac79-537c22eb8017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03\00.PlatingPlate\01.Phase1">
+      <UniqueIdentifier>{0a9aec9e-0c88-49aa-bed8-24b7f77e62cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03\00.PlatingPlate\02.Phase2">
+      <UniqueIdentifier>{83ab6d3e-f3a3-49c0-ad21-7c73aecf3659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_CutScene">
+      <UniqueIdentifier>{f0a7a948-d283-4d06-b6a8-cc81bd38c999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\08.ZiantLoboto">
+      <UniqueIdentifier>{e6fec2f3-8457-4bbb-8ba2-f8c069121d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\03.DonutRing\CencerDonut">
+      <UniqueIdentifier>{88371495-f798-4693-8de3-0aba2ecc7da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\01. Censor\AttTrigger">
+      <UniqueIdentifier>{79dbff0a-e00f-4d16-8f91-aa83ae961593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\05. BadIdea\AttTrigger">
+      <UniqueIdentifier>{5175553d-dfcc-4fdb-ba36-c54fb6ac103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\02 CensorBurly\AttTrigger">
+      <UniqueIdentifier>{0d4d9919-ac82-4966-98ae-2ab82b8f2fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\02 CensorBurly\AttTrigger\LeftHand">
+      <UniqueIdentifier>{891288e7-2bb6-4a5f-8978-bb471dc8f7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\02 CensorBurly\AttTrigger\RightHand">
+      <UniqueIdentifier>{b9a1b2eb-18cc-4364-b8de-367a47e3cce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge\AttTrigger">
+      <UniqueIdentifier>{2cc122f9-d6d9-49ba-a52e-4a6dc4e679fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge\AttTrigger\Weapon">
+      <UniqueIdentifier>{9c6c5fcc-e59f-49f7-80c3-f0945a39387e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\04. Judge\AttTrigger\Area">
+      <UniqueIdentifier>{c3f78191-5928-492d-91c8-3becf9ad2f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Trigger\01.FruitTrigger">
+      <UniqueIdentifier>{7472e977-3d6a-45b9-b844-c85022a98108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\01.NPC\00.Npc\00.MoveNpc">
+      <UniqueIdentifier>{c622497f-f9de-4454-bcac-3cfd79823e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\09. Denture">
+      <UniqueIdentifier>{477a0d2c-3713-446e-a2b1-b525a8da12cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\08.PsyBLExit">
+      <UniqueIdentifier>{5472f150-3a8a-4da7-a49a-a0c6349e7105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\09. Denture\Cracked">
+      <UniqueIdentifier>{0cfd40ee-6d3f-49cb-a431-5d85797ea95a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\97. UI">
+      <UniqueIdentifier>{93d55ca5-8d74-4ed7-b3b0-f619eb90a760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.AWaterCooler">
+      <UniqueIdentifier>{47860430-72e2-4a51-bfe1-bd773d633967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle\00.Rect\Repeat">
+      <UniqueIdentifier>{c35ccc4f-b187-4d7a-bfbe-3a79d48660d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\03.Tutorial\01.Script">
+      <UniqueIdentifier>{216f23d1-8da0-4e40-8fce-6b6ca539bdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\09.PyroPainting">
+      <UniqueIdentifier>{6f5a8357-7154-4fcc-bb58-fbc867146193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\04.ChargeSingleWave\CensorCSW">
+      <UniqueIdentifier>{1cfa7d90-86c3-4890-bb5c-55cb65e464f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner">
+      <UniqueIdentifier>{9a5eedb1-86a4-4acb-846c-c10806029095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit">
+      <UniqueIdentifier>{398cc4e9-fa8e-43e1-8a78-6019f286476f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\00.EGG">
+      <UniqueIdentifier>{f4dadc48-0721-40ee-b0f5-a8cbcbdfbbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\01.AWATERMELON">
+      <UniqueIdentifier>{c17f7cfc-8e7c-4cff-a380-d5d87eb153d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\02.BEEHIVE">
+      <UniqueIdentifier>{4beea4e4-b944-48d0-ae57-4661a86fd11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\03.BREAD">
+      <UniqueIdentifier>{29b3d531-f699-4e2d-9bdc-2313b355fd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\04.ONION">
+      <UniqueIdentifier>{b531d76b-4e71-4c40-871d-5cc36987451c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\05.PORK">
+      <UniqueIdentifier>{ff5edd25-f062-4fd2-aaed-0b9f2278f45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\07.FruitSpawner\Fruit\06.STRAWBERRY">
+      <UniqueIdentifier>{3ff7a886-174b-443b-b934-0afd0d10d0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\03.Trail">
+      <UniqueIdentifier>{a7ea2f9a-c7ad-4f0a-8790-7402d61e03e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\03.Trail\Bulb_Trail">
+      <UniqueIdentifier>{d33b0a25-7591-4dc3-bd91-540065bce805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\03.Trail\Washing_Trail">
+      <UniqueIdentifier>{545bf170-ea94-41e3-b9ad-b29e5588e542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_TrampolineJump">
+      <UniqueIdentifier>{c70d6396-0d2b-4d97-b8bf-e70524d114af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_GroundSlide">
+      <UniqueIdentifier>{a288be34-fba6-4346-a823-4a7883abd120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\10.Blade">
+      <UniqueIdentifier>{b7006220-c223-4eb6-ab4a-12d4bf3c5a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.FadeIn">
+      <UniqueIdentifier>{f9b606d3-ed5e-4d4a-9ad9-55c051b7c8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\11.HippoLegs">
+      <UniqueIdentifier>{c44abcfc-161e-4672-9cc2-a1d05ddc0438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\03.Trail\CencerB_Left_Trail">
+      <UniqueIdentifier>{28227981-e966-49b5-b369-30d99bfe8faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\03.Trail\CencerB_Right_Trail">
+      <UniqueIdentifier>{0ba020be-ad91-4f32-9acf-a80db52b6a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\03.Trail\Judge_Trail">
+      <UniqueIdentifier>{ebd2ca8c-78e8-4cc8-bc1c-bc73d81f5b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\00.Rect\BoneMat">
+      <UniqueIdentifier>{a53d502d-3b63-4a7e-bfd4-6ecc57a95d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\03.DonutRing\JudgeDonut">
+      <UniqueIdentifier>{0ab04a1f-be85-4574-8560-ccb37f7fa597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis">
+      <UniqueIdentifier>{ae1168a8-3137-4acc-a2a6-71227ae40b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto">
+      <UniqueIdentifier>{220b4887-ac5b-4526-8984-223b637fc9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord">
+      <UniqueIdentifier>{02d34def-1982-439e-b584-e4c360bf1b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Beater">
+      <UniqueIdentifier>{7ee8e653-5aea-4786-869b-750f20b9e303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Spatula">
+      <UniqueIdentifier>{36a94b0c-f1eb-4ef8-88be-2f0491e47e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Beater\Idle">
+      <UniqueIdentifier>{d33013ef-e065-4d3d-b5d7-b7c561b25430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Beater\Attack">
+      <UniqueIdentifier>{b9990315-01a1-4ac1-91bc-64cf522abf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Beater\Taunt">
+      <UniqueIdentifier>{c9797305-0eb9-4471-a0dd-dc1e46a75beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Beater\Intro">
+      <UniqueIdentifier>{77ebf0ff-f238-40ec-870d-ec345ac7eede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Idle">
+      <UniqueIdentifier>{e86efa03-7448-4278-a7f8-db4e420c75c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Attack">
+      <UniqueIdentifier>{34c66f33-ccb0-45a1-b03e-e22ee7ebc7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Intro">
+      <UniqueIdentifier>{d5876a98-d2ba-4223-8f5d-e853391f685f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Taunt">
+      <UniqueIdentifier>{4a1cc34b-becb-4c08-9a23-c555520c94a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Idle">
+      <UniqueIdentifier>{1e86585c-eb9a-4e25-bef9-6b6bfd438a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Attack">
+      <UniqueIdentifier>{8c7a4470-235c-4889-8260-b63cef66a0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Taunt">
+      <UniqueIdentifier>{1ceaf9a2-ad24-4051-951d-f7d76b382ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Hit">
+      <UniqueIdentifier>{a013b0d3-16d9-444f-9181-ce8a6ecc5d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Dead">
+      <UniqueIdentifier>{dabe0ceb-9983-412c-8fba-9297ff8fb47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\12.BlenderPath">
+      <UniqueIdentifier>{8c9dd8bc-87f8-42a8-b2bb-8d3dbecb4919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Attack">
+      <UniqueIdentifier>{59d3ab1f-5905-4067-ba7e-1a7ebf45e047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Dead">
+      <UniqueIdentifier>{c0ca2bfe-05aa-4e0e-bb1a-59eaad0c0c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Hit">
+      <UniqueIdentifier>{f199c1cb-462d-4b7d-aa56-3a22388d9f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Idle">
+      <UniqueIdentifier>{d6a077db-53fd-4745-9cd2-f71e818672e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Taunt">
+      <UniqueIdentifier>{2a32de81-967c-4912-ad36-bc8d7c5afc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Attack">
+      <UniqueIdentifier>{6b9a1b8a-38a8-4bfe-b875-317d2c34c111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Dead">
+      <UniqueIdentifier>{2cb53b2a-1a2f-4b5b-8b66-02f65ff2ceb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Hit">
+      <UniqueIdentifier>{c9f2bb60-2fa4-4fcf-a2b8-37915a141df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Idle">
+      <UniqueIdentifier>{45024d29-06e5-49ef-8a80-461f278e3dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Taunt">
+      <UniqueIdentifier>{a71f5aac-1c53-4d9e-92b5-211c704f32de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.Blender2">
+      <UniqueIdentifier>{a3f7795f-0fc8-485c-9ee2-92d5ced598d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\08.Stage03">
+      <UniqueIdentifier>{4511d693-d04e-434b-9b5c-73ff20967d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\08.Stage03\00.CookingUI">
+      <UniqueIdentifier>{721f018a-3846-4a67-85cb-299d824f298c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\01.Rail">
+      <UniqueIdentifier>{cc00ff06-e862-4784-a4d2-1c8729207511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Rail">
+      <UniqueIdentifier>{7e8fb8f3-6883-4b34-9d0e-cbb6d67b8455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat">
+      <UniqueIdentifier>{9dfa3935-f6f8-4933-a9f8-3068f97c2062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\00. Goat_Hollis">
+      <UniqueIdentifier>{b5d1c6b5-f9e7-4dde-8ed8-0eccfcdc2dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\01. Goat_Otto">
+      <UniqueIdentifier>{610a894b-8b34-4010-a704-8d45088c52b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\02. Goat_Ford">
+      <UniqueIdentifier>{92cb7324-1fe9-44df-93b6-a04d386ae93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\03. Beater">
+      <UniqueIdentifier>{1110f84e-0411-43f7-bf81-4e3fd1b1d0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\04. Spatula">
+      <UniqueIdentifier>{3b8df440-658b-491d-ac92-9faf4f56946f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\05. PukeLaser">
+      <UniqueIdentifier>{dd0baf25-13c9-4786-9d09-023a7492a50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall">
+      <UniqueIdentifier>{b03cd2c1-6bd4-4cb2-bda1-22d47d354743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\02.ChopPig">
+      <UniqueIdentifier>{b0be913e-e9eb-4f14-84aa-1a52e90b3418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\03.PPlate">
+      <UniqueIdentifier>{7eac086c-41cf-45f9-8918-27ac9927a2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\02.ChopPig\00.HandKnife">
+      <UniqueIdentifier>{d3e58c65-5070-4313-bf6f-4124c487bfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\02.ChopPig\01.PullHand">
+      <UniqueIdentifier>{75524ad3-617c-412b-998c-2ee91c978265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_PullSwitch">
+      <UniqueIdentifier>{1ab8b9dd-807c-4768-9b95-63ff0d8be174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_PullSwitch\Player_PullSwitch_Move">
+      <UniqueIdentifier>{5c604e19-20b8-4313-ba4a-13b6b2fca27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\04.Bell">
+      <UniqueIdentifier>{3d9295a7-4ca8-4022-b817-5a45d89ea5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\06.Stage04">
+      <UniqueIdentifier>{4a128a9e-7ce1-4d87-8c5a-61f3304bfabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\07.Stage05">
+      <UniqueIdentifier>{82ec337a-faf1-4de2-a395-ab5748f6d33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\05.Bouncer">
+      <UniqueIdentifier>{37eea264-a9ef-489a-90c7-9fae1678cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Bouncer">
+      <UniqueIdentifier>{ee87fad7-c8e5-4580-848b-ea529df23472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing">
+      <UniqueIdentifier>{16a77501-8d7c-4ac8-a6ea-9ccd1d118de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing\Player_Blender_Climbing_Jump">
+      <UniqueIdentifier>{d42a5e02-ad80-4d95-9459-0ab739533e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing\Player_Blender_Climbing_JumpEnd">
+      <UniqueIdentifier>{fcc076de-1bfe-4aaa-8578-c46b0f02fac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\08.Stage03\01.TimerUI">
+      <UniqueIdentifier>{84a9e196-9dbd-4597-a565-f87a305e4b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13.Griddle">
+      <UniqueIdentifier>{1035cfe6-aced-4ffd-8caa-85f0aac62042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\13.Blender">
+      <UniqueIdentifier>{68733d91-e951-4343-9afe-ff34ae392f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\08.Stage03\02.CookingProgressBarUI">
+      <UniqueIdentifier>{feab1cca-1bc9-44af-8952-6120f1f26e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\14.StudioCam">
+      <UniqueIdentifier>{50f71891-7d72-479a-86a9-d4f655bcd399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\07. NonBT">
+      <UniqueIdentifier>{3af5551a-4282-44fb-a217-696f5905668a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Otto">
+      <UniqueIdentifier>{26fed4ad-1359-43ae-985a-e3e7a1026cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Hollis">
+      <UniqueIdentifier>{01b53ea9-9515-4b12-9ec4-f9981db1002c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Ford">
+      <UniqueIdentifier>{317c8ada-7f0b-4325-a2d4-d989d5781f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\97. UI\HpBar">
+      <UniqueIdentifier>{da65a96d-dd66-4baf-9949-d5d5c48da185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\97. UI\Info">
+      <UniqueIdentifier>{ab691edd-f00d-433d-824a-c489e40506a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle\00.Rect\Clone">
+      <UniqueIdentifier>{4273f5c1-2d1a-46fc-8d47-f7f4dd5bc23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\14.Compt_Vent">
+      <UniqueIdentifier>{12d91352-fbbb-48ac-a99c-9205a7f412de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\15.Treasure">
+      <UniqueIdentifier>{36719485-07f9-44d6-8fb8-afd41a9bded0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\06.KitchenPan">
+      <UniqueIdentifier>{2311a8a6-0200-433e-ac3f-0d2b3238a29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\07.KitchenPanButton">
+      <UniqueIdentifier>{0e632967-e565-4f17-810b-498498c4b418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\08.GasBurner">
+      <UniqueIdentifier>{d640a9a3-1240-46fd-8340-faa619828c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_KitchenButton">
+      <UniqueIdentifier>{a9e3c306-9e4b-43f8-987e-809908f88bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\09.StaticBell">
+      <UniqueIdentifier>{08337829-3c36-4311-a8ac-6ed86c1257c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\15.LightBar">
+      <UniqueIdentifier>{cb6bbeaa-ca59-45c3-9714-814f6aa3deb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\08.Water">
+      <UniqueIdentifier>{71b24970-ba68-433a-8bb0-5ca02899bea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\09.WaterWave">
+      <UniqueIdentifier>{962557b6-42d8-49f6-b7e0-962b997b7709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\16.SS_Cuff">
+      <UniqueIdentifier>{92feea67-73e2-4572-9df5-3cf6608aff9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\17.HostZone">
+      <UniqueIdentifier>{28d5b9c0-c93c-464d-9159-e9d1f8de8009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\18.StationRamp0">
+      <UniqueIdentifier>{8040519f-c1ed-4cd0-bc9d-69894411b176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\19.StationRamp1">
+      <UniqueIdentifier>{579702ea-ba61-4fb7-91db-a83166004a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\10.Balloon">
+      <UniqueIdentifier>{0a2b848f-2501-438d-b756-49914639bf97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\00.Rect\Envinorment">
+      <UniqueIdentifier>{175430aa-99e6-4b2b-a448-a4049506c0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest">
+      <UniqueIdentifier>{7fae187b-dee6-49e8-8973-1c15a0397973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\99.Manager">
+      <UniqueIdentifier>{44bc0bf7-17d8-494c-9677-3e609251657b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\00.NormalQuest">
+      <UniqueIdentifier>{7b496580-3459-4ddf-95ab-41d07d412a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Cloud">
+      <UniqueIdentifier>{233fc176-431b-4847-999f-25cf85335a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Cloud\Player_CloudEnd">
+      <UniqueIdentifier>{32367f0f-9789-4d4e-93c3-1dbb9f0e5ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\16.Cloud">
+      <UniqueIdentifier>{62a1802e-b5e1-4805-b906-5fb55f4d3289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\98.QuestNPC">
+      <UniqueIdentifier>{e04a69e0-f9d8-413a-90e1-f91e34a42063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\98.QuestNPC\00.Coach">
+      <UniqueIdentifier>{155c93c8-7549-4212-8572-da0d3548badb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\11.BlenderWave">
+      <UniqueIdentifier>{7695ddf4-4eab-4502-a629-7ff65b4af2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\12.BlenderHead">
+      <UniqueIdentifier>{3fd44098-f8a0-45ee-9c6e-42ba15ca6deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\20.Zip">
+      <UniqueIdentifier>{c8ccef04-0246-4f7c-bcba-b54bd33fa9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\17.File">
+      <UniqueIdentifier>{a9db1453-85e9-4537-9179-c69f19f2c5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\21.Stage4Mercial">
+      <UniqueIdentifier>{ba01a15a-7b49-4a6f-9f4b-b9528c1b91d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\08. Fruits">
+      <UniqueIdentifier>{c9bfa362-13bc-4a1b-b7da-fdd7562c22dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal">
+      <UniqueIdentifier>{b8a8d521-932f-4639-99a2-e2f12a250b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02">
+      <UniqueIdentifier>{2e6230bd-1a7b-4829-8497-caeb784787c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\00. VentDoor">
+      <UniqueIdentifier>{50ea7b60-3281-4257-b76b-9bdf430fdf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food">
+      <UniqueIdentifier>{5bf41edc-391d-4160-92ce-e29ff32635b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Idle">
+      <UniqueIdentifier>{045bde5a-6c36-460d-a34e-a108d6a482e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Throw">
+      <UniqueIdentifier>{eb950c77-de3d-4aa7-8426-7b0c139ee7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Finished">
+      <UniqueIdentifier>{89351065-ccde-4656-9fe9-57ce1284b5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left">
+      <UniqueIdentifier>{c80055f1-d91a-48fe-8591-137460edba1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Idle_Left">
+      <UniqueIdentifier>{c68df158-f06d-49a1-807c-b8f020604160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Throw_Left">
+      <UniqueIdentifier>{2148145c-fb94-4b2a-ae70-cd3aa8267866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food">
+      <UniqueIdentifier>{7346ac93-df4b-40a8-90fc-0a16b8d156d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Left">
+      <UniqueIdentifier>{7523cbe3-a3e1-4d1b-a3e5-84982a442ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Idle">
+      <UniqueIdentifier>{6edbca33-1849-4a1a-b8c7-6625ca6abbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Dish_Throw">
+      <UniqueIdentifier>{dccd56be-4d48-47e5-a934-414004b946e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Right">
+      <UniqueIdentifier>{951a6448-b1af-4b2d-a4d5-66b7686ea3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\18.BossDish">
+      <UniqueIdentifier>{d78a9dc6-709d-4664-8211-5955b5058d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\18.BossDish\Boss_Dish">
+      <UniqueIdentifier>{17611930-4bcb-4d63-993d-d33894abe6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\18.BossDish\Boss_Projectile">
+      <UniqueIdentifier>{99ccdc40-0bf5-40f6-8761-f467508321ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\98.QuestNPC\01.Sasha">
+      <UniqueIdentifier>{4eec6e91-35b6-4250-b83f-aef19e53a36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\98.QuestNPC\02.Loboto">
+      <UniqueIdentifier>{ccb9fa8f-0576-4797-b107-93a7597b55b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\97.QuestScriptUI">
+      <UniqueIdentifier>{978a92df-efc5-4841-b18c-0ec494ab13dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Quest\02.QuestUI">
+      <UniqueIdentifier>{6eef30a0-fe62-495a-aaa7-d2851ef697fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle\01.Point\Repeat">
+      <UniqueIdentifier>{6aad66c4-e631-4a8c-a021-a2e4aaac673e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\02.Particle\01.Point\Environment">
+      <UniqueIdentifier>{1f0f141a-2a42-42a5-acdd-a287ef4e7521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\01.Model\03.DonutRing\BossDonut">
+      <UniqueIdentifier>{0c71080a-94ab-4bf3-a0ec-6400185e2fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Loading_Player">
+      <UniqueIdentifier>{a39c75c1-5080-49c8-aaeb-14620590d9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Finished_Left">
+      <UniqueIdentifier>{6192d3ad-0873-4d10-aa77-8ce2bc91054a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\01.Lock_Object">
+      <UniqueIdentifier>{607253d5-e552-48c0-a555-c831dc509ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\02.2DMap">
+      <UniqueIdentifier>{b9949a7f-1c1e-4666-9bac-7b774b6bd3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\02.2DMap\00.Player_2D">
+      <UniqueIdentifier>{834a67eb-f03a-4795-88af-be5caf2c49d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\02.2DMap\01.Monster_2D">
+      <UniqueIdentifier>{fbef0f27-3bf8-4012-9f1b-f414a4c77e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\02.2DMap\02.Plane_2D">
+      <UniqueIdentifier>{45b0e395-9744-4dcc-a57f-bb830d3d6790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\02.2DMap\03.Key_2D">
+      <UniqueIdentifier>{07ef1efe-816f-4a40-a31b-d1e53711f95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96. Stage02\02.2DMap\04.Lock_2D">
+      <UniqueIdentifier>{10a90235-e32d-4304-a568-00fc333c820c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\22.INGHole">
+      <UniqueIdentifier>{d9143372-6ccd-4f46-bcb4-a93e9c6141c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Spawn">
+      <UniqueIdentifier>{e1290576-62b2-4d58-aea3-3903ac79ee9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Spawn">
+      <UniqueIdentifier>{13390a66-174c-4d85-b802-da88a2607fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Spawn">
+      <UniqueIdentifier>{b32ca432-bd27-4dfc-a4c2-dcfe130020b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Effect\00.Rect\SpinHole">
+      <UniqueIdentifier>{cfb3045b-72e8-44c9-aa34-8b8196da5a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03\01.BossDish">
+      <UniqueIdentifier>{aceab45c-503a-40b7-8a66-7ba62ea3fd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.Stage03\02.CookingEnd">
+      <UniqueIdentifier>{c58dcc7a-0395-4758-a067-014e4cc25aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\23.GiantCloche">
+      <UniqueIdentifier>{c8f24124-0944-4c5a-b903-6775f808ca41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\00. Goat_Hollis\AttTrigger">
+      <UniqueIdentifier>{57b6bfd4-dfae-48cf-bf7d-283ae5a7f282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\01. Goat_Otto\AttTrigger">
+      <UniqueIdentifier>{5f301599-675b-48ce-a889-9494e322d6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\02. Goat_Ford\AttTrigger">
+      <UniqueIdentifier>{d231200c-fa93-4cf6-9227-ee3967e30059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal\Board">
+      <UniqueIdentifier>{7f111db4-6168-4e53-8e20-f23ace6f7c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\97. UI\HpBarBoss">
+      <UniqueIdentifier>{3854a19d-4a96-4500-aa59-6ec076b33405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI\09.Skill_Info">
+      <UniqueIdentifier>{ec501fef-d54a-4be8-a9c7-15623afd2cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Animation\04.Stage03\10.BossWall">
+      <UniqueIdentifier>{4dd730ea-3874-49d3-8ec4-233babc09c9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Scene\00.Loading\00.Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Loading.h">
+      <Filter>01.Scene\00.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Logo.h">
+      <Filter>01.Scene\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Demo.h">
+      <Filter>01.Scene\02.Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Fly.h">
+      <Filter>02.GameObject\00.Camera\00.Camera_Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imconfig.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imgui.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imgui_impl_dx11.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imgui_impl_win32.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imgui_internal.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imstb_rectpack.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imstb_textedit.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGUI\imstb_truetype.h">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGUIManager.h">
+      <Filter>97.ImGUI\98.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02.GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SkyBox.h">
+      <Filter>02.GameObject\02.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_AnimState.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_ParentAnim.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_IdleAnim.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_IdleAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_RunAnim.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_RunAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_StopAnim.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_StopAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_PlayerAnimationDefines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Static_Mesh.h">
+      <Filter>02.GameObject\03.StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bag.h">
+      <Filter>02.GameObject\04.Monster\99. Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Ball.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_ComboAttack.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_ComboAttackAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Falling.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_FallAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Walk.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_WalkAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Pisblast.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Pisblast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Jump.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_JumpAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Dash.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Dash_Attack.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_DashAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_GrabAttack.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab\Grab_Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_GrabBack.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab\Grab_Back</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Floting.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Floting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Hit.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_HitAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Landing.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Land</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Background.h">
+      <Filter>02.GameObject\05.UI\00.Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loading_UI.h">
+      <Filter>02.GameObject\05.UI\01.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Skill_UI.h">
+      <Filter>02.GameObject\05.UI\02.Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Plane.h">
+      <Filter>02.GameObject\99.Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_DownAttack.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_DownAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_LeftHand.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_RightHand.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Balling.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_Anim.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_ParentAnim.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_ChopA.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Chop_A</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_ChopC.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Chop_C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_Default.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Anim.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Parent_Anim.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Default.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_ChopB.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Chop_B</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Grap.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Grap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Grab_Toss.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Grap\Toss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_BrainStom.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_BrainStom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NpcDoor.h">
+      <Filter>02.GameObject\06.Animation\00.Door\00.NpcDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DoubleDoorBlocker.h">
+      <Filter>02.GameObject\06.Animation\00.Door\01.DoubleDoorBlocker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Npc.h">
+      <Filter>02.GameObject\06.Animation\01.NPC\00.Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DoorZipper.h">
+      <Filter>02.GameObject\06.Animation\00.Door\02.DoorZipper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerTrigger.h">
+      <Filter>02.GameObject\01.Player\99.Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerTrigger_Sphere.h">
+      <Filter>02.GameObject\01.Player\99.Triggers\00.Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerTrigger_Parkour.h">
+      <Filter>02.GameObject\01.Player\99.Triggers\01.PlayerTrigger_Parkour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EnviromentTrigger.h">
+      <Filter>02.GameObject\98.Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_BrainWashing.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_BrainWashing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Skill_BrainStrom.h">
+      <Filter>02.GameObject\01.Player\Player_Skill\Skill_Brain_Strom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Skill_PisBlast.h">
+      <Filter>02.GameObject\01.Player\Player_Skill\Skill_PsiBlast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Brain_Washing.h">
+      <Filter>02.GameObject\01.Player\Player_Skill\Skill_Brain_Washing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ball_Anim.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ball_ParentAnim.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ball_Floating.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Floating</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ball_Slide.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ball_Jump.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HaroldMouse.h">
+      <Filter>02.GameObject\04.Monster\06. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Dead.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Ledge.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Ledge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Slider.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Dodge.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BTNode.h">
+      <Filter>02.GameObject\04.Monster\98. BT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CompositeNode.h">
+      <Filter>02.GameObject\04.Monster\98. BT\CompositeNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Sequence.h">
+      <Filter>02.GameObject\04.Monster\98. BT\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Selector.h">
+      <Filter>02.GameObject\04.Monster\98. BT\Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Anvil.h">
+      <Filter>02.GameObject\04.Monster\03. Doubt\Anvil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Doubt.h">
+      <Filter>02.GameObject\04.Monster\03. Doubt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BadIdea.h">
+      <Filter>02.GameObject\04.Monster\05. BadIdea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bulb.h">
+      <Filter>02.GameObject\04.Monster\05. BadIdea\Bulb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Censor.h">
+      <Filter>02.GameObject\04.Monster\01. Censor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Censor_Burly.h">
+      <Filter>02.GameObject\04.Monster\02 CensorBurly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Enemy.h">
+      <Filter>02.GameObject\04.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ToothFairy.h">
+      <Filter>02.GameObject\04.Monster\07. ToothFairy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Tooth.h">
+      <Filter>02.GameObject\04.Monster\07. ToothFairy\Tooth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Judge.h">
+      <Filter>02.GameObject\04.Monster\04. Judge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Judge_Book.h">
+      <Filter>02.GameObject\04.Monster\04. Judge\Book</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Judge_Weapon.h">
+      <Filter>02.GameObject\04.Monster\04. Judge\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\08. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\08. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Idle_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jump_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\06. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jump_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\06. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\07. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\07. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Walk_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\04. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Walk_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\04. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Run_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\05. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Run_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\05. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Spawn_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\02. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Spawn_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\02. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Idle_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\01. Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\01. Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chase_Censor.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\03. Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chase_CensorB.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\03. Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\08. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chase_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\03. Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\01. Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\07. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Idle_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Walk_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\04. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Run_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\05. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jump_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\06. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Spawn_BadIdea.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\02. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\06. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chase_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\03. Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\01. Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\05. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Idle_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Move_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\04. Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Spawn_Doubt.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\02. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chase_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Spawn_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\06. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\06. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Walk_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\02. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Walk_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\02. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Run_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\03. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Run_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\03. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jump_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\04. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jump_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\04. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Idle_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Idle_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\05. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\05. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\01. Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_Judge_UA.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\01. Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerTrigger_Body.h">
+      <Filter>02.GameObject\01.Player\99.Triggers\02.PlayerTrigger_Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loboto.h">
+      <Filter>02.GameObject\06.Animation\01.NPC\01.Loboto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_LedgeJump.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_LedgeJump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WallCollision.h">
+      <Filter>02.GameObject\98.Trigger\00.WallCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectEffect.h">
+      <Filter>02.GameObject\07.Effect\00.Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DonutRing.h">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_PointParticle.h">
+      <Filter>02.GameObject\07.Effect\02.Particle\01.Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_RectParticle.h">
+      <Filter>02.GameObject\07.Effect\02.Particle\00.Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MoveCabinet.h">
+      <Filter>02.GameObject\06.Animation\02.MoveCabinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stage02Button.h">
+      <Filter>02.GameObject\05.UI\05.Stage02\00.DoorLockButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Tuto_MessageUI.h">
+      <Filter>02.GameObject\05.UI\03.Tutorial\00.Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HealthPack.h">
+      <Filter>02.GameObject\08.Item\00.HealthPack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_LedgeMove.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_LedgeMove</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AnimatedShelv.h">
+      <Filter>02.GameObject\06.Animation\03.AnimatedShelv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChargeSingleWave.h">
+      <Filter>02.GameObject\07.Effect\01.Model\04.ChargeSingleWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChargeWave.h">
+      <Filter>02.GameObject\07.Effect\01.Model\05.ChargeWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChopA.h">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\00.ChopA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChopB.h">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\01.ChopB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChopC.h">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\02.ChopC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DizziStar.h">
+      <Filter>02.GameObject\07.Effect\01.Model\01.DizziStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PurseRing.h">
+      <Filter>02.GameObject\07.Effect\01.Model\00.PurseRing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectEffect_Once.h">
+      <Filter>02.GameObject\07.Effect\00.Rect\Once</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImpactWave.h">
+      <Filter>02.GameObject\07.Effect\01.Model\06.ImpactWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SpinSwipe.h">
+      <Filter>02.GameObject\07.Effect\01.Model\02.SpinSwipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TumbleAttack.h">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\03.TumbleAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerHPBar.h">
+      <Filter>02.GameObject\05.UI\06.HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Stage01.h">
+      <Filter>01.Scene\03.Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Trampoline.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\00.Trampoline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DemoRect.h">
+      <Filter>02.GameObject\06.Animation\05.DemoRect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FallObject.h">
+      <Filter>02.GameObject\06.Animation\06.FallObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SlidingMesh.h">
+      <Filter>02.GameObject\07.Effect\01.Model\07.SildingMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PullingGrab.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\PullingGrab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_WalkStop.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_WalkAnim\Player_WalkStop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\OfficeWalls.h">
+      <Filter>02.GameObject\06.Animation\05.DemoRect\OfficeWalls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingThreadUI.h">
+      <Filter>02.GameObject\05.UI\07.LoadingThreadData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Stage03.h">
+      <Filter>01.Scene\05.Stage03</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FruitSpawner.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Stage02.h">
+      <Filter>01.Scene\04.Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Censor_Spawner.h">
+      <Filter>02.GameObject\04.Monster\01. Censor\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BadIdea_Spawner.h">
+      <Filter>02.GameObject\04.Monster\05. BadIdea\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Judge_Weaponhead.h">
+      <Filter>02.GameObject\04.Monster\04. Judge\Weaponhead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stolen_Judge.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\07. Stolen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Not_Affected_Render.h">
+      <Filter>02.GameObject\09.Not_Affected_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlatingPlate_Phase0.h">
+      <Filter>02.GameObject\97.Stage03\00.PlatingPlate\00.Phase0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_CutScene.h">
+      <Filter>02.GameObject\01.Player\Player_CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ZiantLoboto.h">
+      <Filter>02.GameObject\04.Monster\08.ZiantLoboto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_EnviroParticle.h">
+      <Filter>02.GameObject\07.Effect\02.Particle\01.Point\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CencerDonut.h">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing\CencerDonut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Censor_AttTrigger.h">
+      <Filter>02.GameObject\04.Monster\01. Censor\AttTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BadIdea_AttTrigger.h">
+      <Filter>02.GameObject\04.Monster\05. BadIdea\AttTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CensorB_AttTriggerL.h">
+      <Filter>02.GameObject\04.Monster\02 CensorBurly\AttTrigger\LeftHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CensorB_AttTriggerR.h">
+      <Filter>02.GameObject\04.Monster\02 CensorBurly\AttTrigger\RightHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Judge_AttTrigger.h">
+      <Filter>02.GameObject\04.Monster\04. Judge\AttTrigger\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JudgeWeapon_AttTrigger.h">
+      <Filter>02.GameObject\04.Monster\04. Judge\AttTrigger\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FruitCheckTrigger.h">
+      <Filter>02.GameObject\98.Trigger\01.FruitTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MoveNpc.h">
+      <Filter>02.GameObject\06.Animation\01.NPC\00.Npc\00.MoveNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Denture.h">
+      <Filter>02.GameObject\04.Monster\09. Denture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PsyBLExit.h">
+      <Filter>02.GameObject\06.Animation\08.PsyBLExit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Cracked_Denture.h">
+      <Filter>02.GameObject\04.Monster\09. Denture\Cracked</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AWaterCooler.h">
+      <Filter>02.GameObject\10.AWaterCooler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_RectRepeat.h">
+      <Filter>02.GameObject\07.Effect\02.Particle\00.Rect\Repeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Tuto_ScriptUI.h">
+      <Filter>02.GameObject\05.UI\03.Tutorial\01.Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PyroPainting.h">
+      <Filter>02.GameObject\06.Animation\09.PyroPainting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CencerCSW.h">
+      <Filter>02.GameObject\07.Effect\01.Model\04.ChargeSingleWave\CensorCSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Fruit.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Egg.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\00.EGG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AWaterMelon.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\01.AWATERMELON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BeeHive.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\02.BEEHIVE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bread.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\03.BREAD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Onion.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\04.ONION</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Pork.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\05.PORK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Strawberry.h">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\06.STRAWBERRY</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bulb_Trail.h">
+      <Filter>02.GameObject\07.Effect\03.Trail\Bulb_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Trail_Effect.h">
+      <Filter>02.GameObject\07.Effect\03.Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Washing_Trail.h">
+      <Filter>02.GameObject\07.Effect\03.Trail\Washing_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_TrampolineJump.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_TrampolineJump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_GroundSlide.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_GroundSlide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blade.h">
+      <Filter>02.GameObject\06.Animation\10.Blade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FadeInOut.h">
+      <Filter>02.GameObject\11.FadeIn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HippoLegs.h">
+      <Filter>02.GameObject\06.Animation\11.HippoLegs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlatingPlate_Phase1.h">
+      <Filter>02.GameObject\97.Stage03\00.PlatingPlate\01.Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlatingPlate_Phase2.h">
+      <Filter>02.GameObject\97.Stage03\00.PlatingPlate\02.Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CencerB_Left_Trail.h">
+      <Filter>02.GameObject\07.Effect\03.Trail\CencerB_Left_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CencerB_Right_Trail.h">
+      <Filter>02.GameObject\07.Effect\03.Trail\CencerB_Right_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Judge_Trail.h">
+      <Filter>02.GameObject\07.Effect\03.Trail\Judge_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectEffect_BoneMat.h">
+      <Filter>02.GameObject\07.Effect\00.Rect\BoneMat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\JudgeDonut.h">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing\JudgeDonut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GoatFord.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\02. Goat_Ford</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GoatOtto.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\01. Goat_Otto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GoatHollis.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\00. Goat_Hollis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spatula.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\04. Spatula</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Beater.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\03. Beater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Attack_Beater.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Idle_Beater.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Intro_Beater.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Taunt_Beater.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Taunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Attack_Spatula.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Idle_Spatula.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Intro_Spatula.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Taunt_Spatula.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Taunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Attack_GoatH.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dead_GoatH.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hit_GoatH.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Idle_GoatH.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Taunt_GoatH.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Taunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlenderPath.h">
+      <Filter>02.GameObject\06.Animation\12.BlenderPath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Attack_GoatF.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dead_GoatF.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hit_GoatF.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Idle_GoatF.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Taunt_GoatF.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Taunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Attack_GoatO.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dead_GoatO.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hit_GoatO.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Idle_GoatO.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Taunt_GoatO.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Taunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blender2.h">
+      <Filter>02.GameObject\12.Blender2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CookingUI.h">
+      <Filter>02.GameObject\05.UI\08.Stage03\00.CookingUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RailSlide.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\01.Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_RailSlide.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Goat.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Puke_Laser.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\05. PukeLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Puke_Ball.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PPlate.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\03.PPlate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Choppig_HandKnife.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\02.ChopPig\00.HandKnife</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Choppig_PullHand.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\02.ChopPig\01.PullHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_PullSwitch.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_PullSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_PullSwitch_Move.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_PullSwitch\Player_PullSwitch_Move</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bell.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\04.Bell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Stage04.h">
+      <Filter>01.Scene\06.Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Stage05.h">
+      <Filter>01.Scene\07.Stage05</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bouncer.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\05.Bouncer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Bouncer.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Bouncer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Blender_Climbing.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Blender_Climbing_Jump.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing\Player_Blender_Climbing_Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Blender_Climbing_JumpEnd.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing\Player_Blender_Climbing_JumpEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Blob.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PukeFruit.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TimerUI.h">
+      <Filter>02.GameObject\05.UI\08.Stage03\01.TimerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Griddle.h">
+      <Filter>02.GameObject\13.Griddle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blender.h">
+      <Filter>02.GameObject\06.Animation\13.Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CookingProgressBarUI.h">
+      <Filter>02.GameObject\05.UI\08.Stage03\02.CookingProgressBarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StudioCam.h">
+      <Filter>02.GameObject\14.StudioCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NonBT_Hollis.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Hollis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_HpBar.h">
+      <Filter>02.GameObject\04.Monster\97. UI\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MonsterInfo.h">
+      <Filter>02.GameObject\04.Monster\97. UI\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NonBT_Otto.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Otto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NonBT_Ford.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Ford</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_RectClone.h">
+      <Filter>02.GameObject\07.Effect\02.Particle\00.Rect\Clone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Comput_Vent.h">
+      <Filter>02.GameObject\06.Animation\14.Compt_Vent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Treasure.h">
+      <Filter>02.GameObject\15.Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\KitchenPan.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\06.KitchenPan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\KitchenPanButton.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\07.KitchenPanButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GasBurner.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\08.GasBurner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_KitchenButton.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_KitchenButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Static_Bell.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\09.StaticBell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LightBar.h">
+      <Filter>02.GameObject\06.Animation\15.LightBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Water.h">
+      <Filter>02.GameObject\07.Effect\01.Model\08.Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WaterWave.h">
+      <Filter>02.GameObject\07.Effect\01.Model\09.WaterWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StationRamp1.h">
+      <Filter>02.GameObject\06.Animation\19.StationRamp1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StationRamp0.h">
+      <Filter>02.GameObject\06.Animation\18.StationRamp0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SS_Cuff.h">
+      <Filter>02.GameObject\06.Animation\16.SS_Cuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HostZone.h">
+      <Filter>02.GameObject\06.Animation\17.HostZone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Balloon.h">
+      <Filter>02.GameObject\07.Effect\01.Model\10.Balloon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectEffect_Environment.h">
+      <Filter>02.GameObject\07.Effect\00.Rect\Envinorment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\QuestManager.h">
+      <Filter>96.Quest\99.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Quest.h">
+      <Filter>96.Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NormalQuest.h">
+      <Filter>96.Quest\00.NormalQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_CloudAnim.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_CloudAnim_End.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Cloud\Player_CloudEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Cloud.h">
+      <Filter>02.GameObject\16.Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\QuestNpc.h">
+      <Filter>96.Quest\98.QuestNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NpcCoach.h">
+      <Filter>96.Quest\98.QuestNPC\00.Coach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlenderHead.h">
+      <Filter>02.GameObject\07.Effect\01.Model\12.BlenderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlenderWave.h">
+      <Filter>02.GameObject\07.Effect\01.Model\11.BlenderWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Zip.h">
+      <Filter>02.GameObject\06.Animation\20.Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stage1File_Cabinet.h">
+      <Filter>02.GameObject\17.File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stage4Mercial.h">
+      <Filter>02.GameObject\06.Animation\21.Stage4Mercial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fruits.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FruitsPortal_R.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FruitsPortal_L.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VentDoor.h">
+      <Filter>02.GameObject\96. Stage02\00. VentDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_KnockBack.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_HitAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Boss_Food_Projectile.h">
+      <Filter>02.GameObject\18.BossDish\Boss_Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Boss_Dish.h">
+      <Filter>02.GameObject\18.BossDish\Boss_Dish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Throw_Right.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Throw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Throw_Idle.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Right_Hand_Throw_Finished.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Finished</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_Throw_Left.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Throw_Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_Throw_Idle.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Idle_Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Dish_Throw.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Dish_Throw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Throw_Right.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Right</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Throw_Left.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Food_Throw.h">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NpcSasha.h">
+      <Filter>96.Quest\98.QuestNPC\01.Sasha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NpcLoboto.h">
+      <Filter>96.Quest\98.QuestNPC\02.Loboto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\QuestScriptUI.h">
+      <Filter>96.Quest\97.QuestScriptUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\QuestUI.h">
+      <Filter>96.Quest\02.QuestUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_RepeatParticle.h">
+      <Filter>02.GameObject\07.Effect\02.Particle\01.Point\Repeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossDonut.h">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing\BossDonut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loading_Player.h">
+      <Filter>02.GameObject\01.Player\Loading_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Left_Hand_Throw_Finished.h">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Finished_Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Lock_Object.h">
+      <Filter>02.GameObject\96. Stage02\01.Lock_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_2D.h">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\00.Player_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_2D.h">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\01.Monster_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Plane_2D.h">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\02.Plane_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Key_2D.h">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\03.Key_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Lock_2D.h">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\04.Lock_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\INGHole.h">
+      <Filter>02.GameObject\06.Animation\22.INGHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spawn_GoatF.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spawn_GoatH.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spawn_GoatO.h">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SpinHole.h">
+      <Filter>02.GameObject\07.Effect\00.Rect\SpinHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EndingObject.h" />
+    <ClInclude Include="..\public\EndingUI.h" />
+    <ClInclude Include="..\public\Scene_Ending.h" />
+    <ClInclude Include="..\public\CookingEnd.h">
+      <Filter>02.GameObject\97.Stage03\02.CookingEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stage3BossDish.h">
+      <Filter>02.GameObject\97.Stage03\01.BossDish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GiantCloche.h">
+      <Filter>02.GameObject\06.Animation\23.GiantCloche</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AttTrigger_GoatH.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\00. Goat_Hollis\AttTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AttTrigger_GoatO.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\01. Goat_Otto\AttTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AttTrigger_GoatF.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\02. Goat_Ford\AttTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Board_L.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Board_R.h">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossHpBar.h">
+      <Filter>02.GameObject\04.Monster\97. UI\HpBarBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Skill_Info.h">
+      <Filter>02.GameObject\05.UI\09.Skill_Info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossWall.h">
+      <Filter>02.GameObject\06.Animation\04.Stage03\10.BossWall</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Scene\00.Loading\00.Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Loading.cpp">
+      <Filter>01.Scene\00.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Logo.cpp">
+      <Filter>01.Scene\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Demo.cpp">
+      <Filter>01.Scene\02.Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Fly.cpp">
+      <Filter>02.GameObject\00.Camera\00.Camera_Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui.cpp">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_draw.cpp">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_impl_dx11.cpp">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_impl_win32.cpp">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_tables.cpp">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_widgets.cpp">
+      <Filter>97.ImGUI\99.defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ImGUIManager.cpp">
+      <Filter>97.ImGUI\98.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02.GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SkyBox.cpp">
+      <Filter>02.GameObject\02.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_AnimState.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_ParentAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_IdleAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_IdleAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_RunAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_RunAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_StopAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_StopAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Static_Mesh.cpp">
+      <Filter>02.GameObject\03.StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bag.cpp">
+      <Filter>02.GameObject\04.Monster\99. Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Ball.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_ComboAttack.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_ComboAttackAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Falling.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_FallAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Walk.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_WalkAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Pisblast.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Pisblast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Jump.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_JumpAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Dash.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Dash_Attack.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_DashAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_GrabAttack.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab\Grab_Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_GrabBack.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Grab\Grab_Back</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Floting.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Floting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Hit.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_HitAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Landing.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_Land</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Background.cpp">
+      <Filter>02.GameObject\05.UI\00.Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loading_UI.cpp">
+      <Filter>02.GameObject\05.UI\01.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Skill_UI.cpp">
+      <Filter>02.GameObject\05.UI\02.Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Plane.cpp">
+      <Filter>02.GameObject\99.Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_DownAttack.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_DownAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_RightHand.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Balling.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_Anim.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_ParentAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_ChopA.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Chop_A</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_ChopC.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Chop_C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_LeftHand.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_Default.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Anim.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Parent_Anim.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Default.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_ChopB.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Chop_B</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Grap.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Grap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Grab_Toss.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Grap\Toss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_BrainStom.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_BrainStom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NpcDoor.cpp">
+      <Filter>02.GameObject\06.Animation\00.Door\00.NpcDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DoubleDoorBlocker.cpp">
+      <Filter>02.GameObject\06.Animation\00.Door\01.DoubleDoorBlocker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Npc.cpp">
+      <Filter>02.GameObject\06.Animation\01.NPC\00.Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DoorZipper.cpp">
+      <Filter>02.GameObject\06.Animation\00.Door\02.DoorZipper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerTrigger.cpp">
+      <Filter>02.GameObject\01.Player\99.Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerTrigger_Sphere.cpp">
+      <Filter>02.GameObject\01.Player\99.Triggers\00.Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerTrigger_Parkour.cpp">
+      <Filter>02.GameObject\01.Player\99.Triggers\01.PlayerTrigger_Parkour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EnviromentTrigger.cpp">
+      <Filter>02.GameObject\98.Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_BrainWashing.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_BrainWashing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Skill_BrainStrom.cpp">
+      <Filter>02.GameObject\01.Player\Player_Skill\Skill_Brain_Strom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Skill_PisBlast.cpp">
+      <Filter>02.GameObject\01.Player\Player_Skill\Skill_PsiBlast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Brain_Washing.cpp">
+      <Filter>02.GameObject\01.Player\Player_Skill\Skill_Brain_Washing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ball_Anim.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ball_ParentAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ball_Floating.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Floating</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ball_Slide.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ball_Jump.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_Ball\Ball_Anim\Ball_ParentAnim\Ball_Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HaroldMouse.cpp">
+      <Filter>02.GameObject\04.Monster\06. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Dead.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Ledge.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Ledge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Slider.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Dodge.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Dodge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BTNode.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CompositeNode.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\CompositeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Sequence.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Selector.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Anvil.cpp">
+      <Filter>02.GameObject\04.Monster\03. Doubt\Anvil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\03. Doubt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\05. BadIdea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bulb.cpp">
+      <Filter>02.GameObject\04.Monster\05. BadIdea\Bulb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Censor.cpp">
+      <Filter>02.GameObject\04.Monster\01. Censor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Censor_Burly.cpp">
+      <Filter>02.GameObject\04.Monster\02 CensorBurly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Enemy.cpp">
+      <Filter>02.GameObject\04.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ToothFairy.cpp">
+      <Filter>02.GameObject\04.Monster\07. ToothFairy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Tooth.cpp">
+      <Filter>02.GameObject\04.Monster\07. ToothFairy\Tooth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Judge.cpp">
+      <Filter>02.GameObject\04.Monster\04. Judge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Judge_Book.cpp">
+      <Filter>02.GameObject\04.Monster\04. Judge\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Judge_Weapon.cpp">
+      <Filter>02.GameObject\04.Monster\04. Judge\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\08. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\08. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Idle_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jump_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\06. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jump_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\06. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\07. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\07. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Walk_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\04. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Walk_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\04. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Run_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\05. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Run_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\05. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Spawn_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\02. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Spawn_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\02. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Idle_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\01. Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\01. Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chase_Censor.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Censor\03. Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chase_CensorB.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\CensorBurly\03. Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\08. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chase_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\03. Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\01. Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\07. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Idle_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Walk_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\04. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Run_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\05. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jump_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\06. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Spawn_BadIdea.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\BadIdea\02. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\06. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chase_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\03. Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\01. Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\05. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Idle_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Move_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\04. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Spawn_Doubt.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Doubt\02. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chase_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Spawn_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\06. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\06. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Walk_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\02. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Walk_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\02. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Run_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\03. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Run_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\03. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jump_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\04. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jump_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\04. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Idle_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Idle_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\05. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\05. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\01. Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_Judge_UA.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\UnArmed\01. Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerTrigger_Body.cpp">
+      <Filter>02.GameObject\01.Player\99.Triggers\02.PlayerTrigger_Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loboto.cpp">
+      <Filter>02.GameObject\06.Animation\01.NPC\01.Loboto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_LedgeJump.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_LedgeJump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WallCollision.cpp">
+      <Filter>02.GameObject\98.Trigger\00.WallCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectEffect.cpp">
+      <Filter>02.GameObject\07.Effect\00.Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DonutRing.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_PointParticle.cpp">
+      <Filter>02.GameObject\07.Effect\02.Particle\01.Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_RectParticle.cpp">
+      <Filter>02.GameObject\07.Effect\02.Particle\00.Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MoveCabinet.cpp">
+      <Filter>02.GameObject\06.Animation\02.MoveCabinet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stage02Button.cpp">
+      <Filter>02.GameObject\05.UI\05.Stage02\00.DoorLockButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Tuto_MessageUI.cpp">
+      <Filter>02.GameObject\05.UI\03.Tutorial\00.Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HealthPack.cpp">
+      <Filter>02.GameObject\08.Item\00.HealthPack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_LedgeMove.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_LedgeMove</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AnimatedShelv.cpp">
+      <Filter>02.GameObject\06.Animation\03.AnimatedShelv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChopB.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\01.ChopB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectEffect_Once.cpp">
+      <Filter>02.GameObject\07.Effect\00.Rect\Once</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChopA.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\00.ChopA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChopC.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\02.ChopC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TumbleAttack.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\00.Melee\03.TumbleAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PurseRing.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\00.PurseRing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DizziStar.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\01.DizziStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SpinSwipe.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\02.SpinSwipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChargeWave.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\05.ChargeWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChargeSingleWave.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\04.ChargeSingleWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ImpactWave.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\06.ImpactWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerHPBar.cpp">
+      <Filter>02.GameObject\05.UI\06.HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Stage01.cpp">
+      <Filter>01.Scene\03.Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Trampoline.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\00.Trampoline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DemoRect.cpp">
+      <Filter>02.GameObject\06.Animation\05.DemoRect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FallObject.cpp">
+      <Filter>02.GameObject\06.Animation\06.FallObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SlidingMesh.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\07.SildingMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PullingGrab.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\PullingGrab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_WalkStop.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_WalkAnim\Player_WalkStop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\OfficeWalls.cpp">
+      <Filter>02.GameObject\06.Animation\05.DemoRect\OfficeWalls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingThreadUI.cpp">
+      <Filter>02.GameObject\05.UI\07.LoadingThreadData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Stage03.cpp">
+      <Filter>01.Scene\05.Stage03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FruitSpawner.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Stage02.cpp">
+      <Filter>01.Scene\04.Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Censor_Spawner.cpp">
+      <Filter>02.GameObject\04.Monster\01. Censor\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BadIdea_Spawner.cpp">
+      <Filter>02.GameObject\04.Monster\05. BadIdea\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Judge_Weaponhead.cpp">
+      <Filter>02.GameObject\04.Monster\04. Judge\Weaponhead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stolen_Judge.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Judge\Armed\07. Stolen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Not_Affected_Render.cpp">
+      <Filter>02.GameObject\09.Not_Affected_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlatingPlate_Phase0.cpp">
+      <Filter>02.GameObject\97.Stage03\00.PlatingPlate\00.Phase0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_CutScene.cpp">
+      <Filter>02.GameObject\01.Player\Player_CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ZiantLoboto.cpp">
+      <Filter>02.GameObject\04.Monster\08.ZiantLoboto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_EnviroParticle.cpp">
+      <Filter>02.GameObject\07.Effect\02.Particle\01.Point\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CencerDonut.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing\CencerDonut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Censor_AttTrigger.cpp">
+      <Filter>02.GameObject\04.Monster\01. Censor\AttTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BadIdea_AttTrigger.cpp">
+      <Filter>02.GameObject\04.Monster\05. BadIdea\AttTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CensorB_AttTriggerL.cpp">
+      <Filter>02.GameObject\04.Monster\02 CensorBurly\AttTrigger\LeftHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CensorB_AttTriggerR.cpp">
+      <Filter>02.GameObject\04.Monster\02 CensorBurly\AttTrigger\RightHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Judge_AttTrigger.cpp">
+      <Filter>02.GameObject\04.Monster\04. Judge\AttTrigger\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JudgeWeapon_AttTrigger.cpp">
+      <Filter>02.GameObject\04.Monster\04. Judge\AttTrigger\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FruitCheckTrigger.cpp">
+      <Filter>02.GameObject\98.Trigger\01.FruitTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MoveNpc.cpp">
+      <Filter>02.GameObject\06.Animation\01.NPC\00.Npc\00.MoveNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Denture.cpp">
+      <Filter>02.GameObject\04.Monster\09. Denture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PsyBLExit.cpp">
+      <Filter>02.GameObject\06.Animation\08.PsyBLExit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\Cracked_Denture.cpp">
+      <Filter>02.GameObject\04.Monster\09. Denture\Cracked</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AWaterCooler.cpp">
+      <Filter>02.GameObject\10.AWaterCooler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_RectRepeat.cpp">
+      <Filter>02.GameObject\07.Effect\02.Particle\00.Rect\Repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Tuto_ScriptUI.cpp">
+      <Filter>02.GameObject\05.UI\03.Tutorial\01.Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PyroPainting.cpp">
+      <Filter>02.GameObject\06.Animation\09.PyroPainting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CencerCSW.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\04.ChargeSingleWave\CensorCSW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Fruit.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Egg.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\00.EGG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AWaterMelon.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\01.AWATERMELON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BeeHive.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\02.BEEHIVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bread.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\03.BREAD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Onion.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\04.ONION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Pork.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\05.PORK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Strawberry.cpp">
+      <Filter>02.GameObject\06.Animation\07.FruitSpawner\Fruit\06.STRAWBERRY</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Trail_Effect.cpp">
+      <Filter>02.GameObject\07.Effect\03.Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bulb_Trail.cpp">
+      <Filter>02.GameObject\07.Effect\03.Trail\Bulb_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Washing_Trail.cpp">
+      <Filter>02.GameObject\07.Effect\03.Trail\Washing_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_TrampolineJump.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_TrampolineJump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_GroundSlide.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_GroundSlide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blade.cpp">
+      <Filter>02.GameObject\06.Animation\10.Blade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FadeInOut.cpp">
+      <Filter>02.GameObject\11.FadeIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HippoLegs.cpp">
+      <Filter>02.GameObject\06.Animation\11.HippoLegs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlatingPlate_Phase1.cpp">
+      <Filter>02.GameObject\97.Stage03\00.PlatingPlate\01.Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlatingPlate_Phase2.cpp">
+      <Filter>02.GameObject\97.Stage03\00.PlatingPlate\02.Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CencerB_Left_Trail.cpp">
+      <Filter>02.GameObject\07.Effect\03.Trail\CencerB_Left_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CencerB_Right_Trail.cpp">
+      <Filter>02.GameObject\07.Effect\03.Trail\CencerB_Right_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Judge_Trail.cpp">
+      <Filter>02.GameObject\07.Effect\03.Trail\Judge_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectEffect_BoneMat.cpp">
+      <Filter>02.GameObject\07.Effect\00.Rect\BoneMat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\JudgeDonut.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing\JudgeDonut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GoatFord.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\02. Goat_Ford</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Beater.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\03. Beater</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GoatOtto.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\01. Goat_Otto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GoatHollis.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\00. Goat_Hollis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spatula.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\04. Spatula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Attack_Beater.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Idle_Beater.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Intro_Beater.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Taunt_Beater.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Beater\Taunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Attack_Spatula.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Idle_Spatula.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Intro_Spatula.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Taunt_Spatula.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\Spatula\Taunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Attack_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dead_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hit_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Idle_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Taunt_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Taunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlenderPath.cpp">
+      <Filter>02.GameObject\06.Animation\12.BlenderPath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Attack_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dead_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hit_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Idle_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Taunt_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Taunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Attack_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dead_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hit_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Idle_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Taunt_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Taunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blender2.cpp">
+      <Filter>02.GameObject\12.Blender2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CookingUI.cpp">
+      <Filter>02.GameObject\05.UI\08.Stage03\00.CookingUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RailSlide.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\01.Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_RailSlide.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Goat.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Puke_Laser.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\05. PukeLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Puke_Ball.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PPlate.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\03.PPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Choppig_HandKnife.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\02.ChopPig\00.HandKnife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Choppig_PullHand.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\02.ChopPig\01.PullHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_PullSwitch.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_PullSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_PullSwitch_Move.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Move\Player_PullSwitch\Player_PullSwitch_Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bell.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\04.Bell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Stage04.cpp">
+      <Filter>01.Scene\06.Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Stage05.cpp">
+      <Filter>01.Scene\07.Stage05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bouncer.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\05.Bouncer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Bouncer.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Bouncer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Blender_Climbing.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Blender_Climbing_Jump.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing\Player_Blender_Climbing_Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Blender_Climbing_JumpEnd.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Blender_Climbing\Player_Blender_Climbing_JumpEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Blob.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PukeFruit.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\06. PukeBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TimerUI.cpp">
+      <Filter>02.GameObject\05.UI\08.Stage03\01.TimerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Griddle.cpp">
+      <Filter>02.GameObject\13.Griddle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blender.cpp">
+      <Filter>02.GameObject\06.Animation\13.Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CookingProgressBarUI.cpp">
+      <Filter>02.GameObject\05.UI\08.Stage03\02.CookingProgressBarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\StudioCam.cpp">
+      <Filter>02.GameObject\14.StudioCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NonBT_Hollis.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Hollis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_HpBar.cpp">
+      <Filter>02.GameObject\04.Monster\97. UI\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterInfo.cpp">
+      <Filter>02.GameObject\04.Monster\97. UI\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NonBT_Otto.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Otto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NonBT_Ford.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\07. NonBT\Ford</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_RectClone.cpp">
+      <Filter>02.GameObject\07.Effect\02.Particle\00.Rect\Clone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Comput_Vent.cpp">
+      <Filter>02.GameObject\06.Animation\14.Compt_Vent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Treasure.cpp">
+      <Filter>02.GameObject\15.Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\KitchenPan.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\06.KitchenPan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\KitchenPanButton.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\07.KitchenPanButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GasBurner.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\08.GasBurner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_KitchenButton.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_KitchenButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Static_Bell.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\09.StaticBell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LightBar.cpp">
+      <Filter>02.GameObject\06.Animation\15.LightBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Water.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\08.Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WaterWave.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\09.WaterWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\StationRamp1.cpp">
+      <Filter>02.GameObject\06.Animation\19.StationRamp1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\StationRamp0.cpp">
+      <Filter>02.GameObject\06.Animation\18.StationRamp0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SS_Cuff.cpp">
+      <Filter>02.GameObject\06.Animation\16.SS_Cuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HostZone.cpp">
+      <Filter>02.GameObject\06.Animation\17.HostZone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Balloon.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\10.Balloon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectEffect_Environment.cpp">
+      <Filter>02.GameObject\07.Effect\00.Rect\Envinorment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\QuestManager.cpp">
+      <Filter>96.Quest\99.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Quest.cpp">
+      <Filter>96.Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NormalQuest.cpp">
+      <Filter>96.Quest\00.NormalQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_CloudAnim.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_CloudAnim_End.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Parkour\Player_Cloud\Player_CloudEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Cloud.cpp">
+      <Filter>02.GameObject\16.Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\QuestNpc.cpp">
+      <Filter>96.Quest\98.QuestNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NpcCoach.cpp">
+      <Filter>96.Quest\98.QuestNPC\00.Coach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlenderHead.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\12.BlenderHead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlenderWave.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\11.BlenderWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Zip.cpp">
+      <Filter>02.GameObject\06.Animation\20.Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stage1File_Cabinet.cpp">
+      <Filter>02.GameObject\17.File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stage4Mercial.cpp">
+      <Filter>02.GameObject\06.Animation\21.Stage4Mercial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fruits.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FruitsPortal_L.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FruitsPortal_R.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VentDoor.cpp">
+      <Filter>02.GameObject\96. Stage02\00. VentDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_KnockBack.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_HitAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Boss_Food_Projectile.cpp">
+      <Filter>02.GameObject\18.BossDish\Boss_Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Boss_Dish.cpp">
+      <Filter>02.GameObject\18.BossDish\Boss_Dish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Throw_Right.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Throw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Throw_Idle.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Right_Hand_Throw_Finished.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_RightHand\Right_Hand_Anim\Right_ParentAnim\Right_Child_Anim\Boss_Food\Boss_Food_Finished</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_Throw_Left.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Throw_Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_Throw_Idle.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Idle_Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Dish_Throw.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Dish_Throw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Throw_Right.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Right</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Throw_Left.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Food_Throw.cpp">
+      <Filter>02.GameObject\01.Player\Player_AnimState\Player_ParentAnim\Player_ChildAnim\Player_Attack\Player_Boos_Food\Player_Boss_Food_Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NpcSasha.cpp">
+      <Filter>96.Quest\98.QuestNPC\01.Sasha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NpcLoboto.cpp">
+      <Filter>96.Quest\98.QuestNPC\02.Loboto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\QuestScriptUI.cpp">
+      <Filter>96.Quest\97.QuestScriptUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\QuestUI.cpp">
+      <Filter>96.Quest\02.QuestUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_RepeatParticle.cpp">
+      <Filter>02.GameObject\07.Effect\02.Particle\01.Point\Repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossDonut.cpp">
+      <Filter>02.GameObject\07.Effect\01.Model\03.DonutRing\BossDonut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loading_Player.cpp">
+      <Filter>02.GameObject\01.Player\Loading_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Left_Hand_Throw_Finished.cpp">
+      <Filter>02.GameObject\01.Player\Player_EffectMesh\Player_LeftHand\Left_Hand_Anim\Left_ParentAnim\Left_Child_Anim\Boos_Food_Left\Boss_Food_Finished_Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Lock_Object.cpp">
+      <Filter>02.GameObject\96. Stage02\01.Lock_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_2D.cpp">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\00.Player_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_2D.cpp">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\01.Monster_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Plane_2D.cpp">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\02.Plane_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Key_2D.cpp">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\03.Key_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Lock_2D.cpp">
+      <Filter>02.GameObject\96. Stage02\02.2DMap\04.Lock_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\INGHole.cpp">
+      <Filter>02.GameObject\06.Animation\22.INGHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spawn_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatFord\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spawn_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatHollis\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spawn_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\98. BT\LeafNode\GoatOtto\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SpinHole.cpp">
+      <Filter>02.GameObject\07.Effect\00.Rect\SpinHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EndingObject.cpp" />
+    <ClCompile Include="..\private\EndingUI.cpp" />
+    <ClCompile Include="..\private\Scene_Ending.cpp" />
+    <ClCompile Include="..\private\CookingEnd.cpp">
+      <Filter>02.GameObject\97.Stage03\02.CookingEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stage3BossDish.cpp">
+      <Filter>02.GameObject\97.Stage03\01.BossDish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GiantCloche.cpp">
+      <Filter>02.GameObject\06.Animation\23.GiantCloche</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AttTrigger_GoatH.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\00. Goat_Hollis\AttTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AttTrigger_GoatO.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\01. Goat_Otto\AttTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AttTrigger_GoatF.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\02. Goat_Ford\AttTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Board_L.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Board_R.cpp">
+      <Filter>02.GameObject\04.Monster\10. Boss_Goat\08. Fruits\Portal\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossHpBar.cpp">
+      <Filter>02.GameObject\04.Monster\97. UI\HpBarBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Skill_Info.cpp">
+      <Filter>02.GameObject\05.UI\09.Skill_Info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossWall.cpp">
+      <Filter>02.GameObject\06.Animation\04.Stage03\10.BossWall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,287 @@
+﻿  VIBuffer_Triangle.cpp
+  VIBuffer_Trail.cpp
+d:\psyconauts2\engine\private\vibuffer_trail.cpp(131): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_trail.cpp(132): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_trail.cpp(195): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_trail.cpp(196): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Terrain.cpp
+d:\psyconauts2\engine\private\vibuffer_terrain.cpp(66): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_RectInstance_Clone.cpp
+  VIBuffer_RectInstance.cpp
+  VIBuffer_Rect.cpp
+  VIBuffer_PointInstance.cpp
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(179): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(180): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(181): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(187): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(188): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(233): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(234): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(235): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(241): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(242): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(287): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(288): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(289): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(295): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(296): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(357): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(358): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(359): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(365): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(366): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(427): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(428): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(429): warning C4244: '인수': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(435): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(436): warning C4244: '=': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(467): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\vibuffer_pointinstance.cpp(493): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_LineStrip.cpp
+  VIBuffer_Instance.cpp
+  VIBuffer_EffectRect.cpp
+  VIBuffer_Cube.cpp
+  VIBuffer.cpp
+  Transform.cpp
+d:\psyconauts2\engine\private\transform.cpp(442): warning C4244: '인수': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\transform.cpp(464): warning C4244: '초기화 중': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\transform.cpp(466): warning C4244: '인수': 'Engine::_double'에서 'const Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\transform.cpp(500): warning C4244: '인수': 'Engine::_double'에서 'const Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\transform.cpp(539): warning C4244: '인수': 'Engine::_double'에서 'const Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Timer_Manager.cpp
+  Timer.cpp
+  Texture.cpp
+  Target_Manager.cpp
+  SoundManager.cpp
+d:\psyconauts2\engine\private\soundmanager.cpp(29): warning C4800: 'FMOD_BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+d:\psyconauts2\engine\private\soundmanager.cpp(157): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SimulationFilterCallback.cpp
+  SimulationEventCallBack.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Scene_Manager.cpp
+  Scene.cpp
+  Renderer.cpp
+d:\psyconauts2\engine\private\renderer.cpp(190): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RenderTarget.cpp
+d:\psyconauts2\engine\private\rendertarget.cpp(185): warning C4244: '=': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\rendertarget.cpp(186): warning C4244: '=': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  QueryFilterCallback.cpp
+  QuadTree.cpp
+  PipeLine.cpp
+  Picking.cpp
+  Object_Manager.cpp
+d:\psyconauts2\engine\private\object_manager.cpp(441): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\psyconauts2\engine\private\object_manager.cpp(454): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Navigation.cpp
+d:\psyconauts2\engine\private\navigation.cpp(155): warning C4267: '인수': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NavMeshCollider.cpp
+  Model.cpp
+d:\psyconauts2\engine\private\model.cpp(268): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MeshContainer.cpp
+  MeshCollider.cpp
+  Light_Manager.cpp
+  Light.cpp
+  Layer.cpp
+  Input_Device.cpp
+  HierarchyNode.cpp
+  Graphic_Device.cpp
+  코드를 생성하고 있습니다...
+d:\psyconauts2\engine\private\navigation.cpp(96): warning C4715: 'Engine::CNavigation::OnNavigationGetY': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  GameObject.cpp
+  GameInstance.cpp
+  Frustum.cpp
+  Font_Manager.cpp
+  Effect_Option.cpp
+  Effect_Manager.cpp
+  EffectData.cpp
+  DebugDraw.cpp
+  Data_Manager.cpp
+  CustomFont.cpp
+  ControllerHitReport.cpp
+  ControllerBehaviorCallback.cpp
+  Component_Manager.cpp
+  Component.cpp
+  CollisionObject.cpp
+  Collider.cpp
+  Cell.cpp
+  Camera.cpp
+  Base.cpp
+  Animation.cpp
+d:\psyconauts2\engine\private\animation.cpp(111): warning C4267: '=': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\animation.cpp(124): warning C4244: '초기화 중': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\animation.cpp(188): warning C4267: '=': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\psyconauts2\engine\private\animation.cpp(201): warning C4244: '초기화 중': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+d:\psyconauts2\engine\private\collider.cpp(190): warning C4715: 'Engine::CCollider::Collision_AABB': 모든 제어 경로에서 값을 반환하지는 않습니다.
+d:\psyconauts2\engine\private\collider.cpp(206): warning C4715: 'Engine::CCollider::Collision_OBB': 모든 제어 경로에서 값을 반환하지는 않습니다.
+d:\psyconauts2\engine\private\collider.cpp(222): warning C4715: 'Engine::CCollider::Collision_Sphere': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  AnimMeshContainer.cpp
+  AnimBone.cpp
+  SphereCollider.cpp
+  PhysXCollider.cpp
+  CharacterController.cpp
+  CapsuleCollider.cpp
+  BoxCollider.cpp
+  코드를 생성하고 있습니다...
+  PhysXScene_Manager.cpp
+d:\psyconauts2\engine\private\physxscene_manager.cpp(115): warning C4244: '인수': 'Engine::_double'에서 'physx::PxReal'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Engine.vcxproj -> D:\PsycoNauts2\Engine\default\..\bin\Engine.dll
+  Engine.vcxproj -> ..\bin\Engine.pdb (Full PDB)
+  D:\PsycoNauts2\Engine\bin\Engine.lib
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\Engine.dll
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\Engine.dll
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\public\Animation.h
+  D:\PsycoNauts2\Engine\public\AnimBone.h
+  D:\PsycoNauts2\Engine\public\AnimMeshContainer.h
+  D:\PsycoNauts2\Engine\public\Base.h
+  D:\PsycoNauts2\Engine\public\BoxCollider.h
+  D:\PsycoNauts2\Engine\public\Camera.h
+  D:\PsycoNauts2\Engine\public\CapsuleCollider.h
+  D:\PsycoNauts2\Engine\public\Cell.h
+  D:\PsycoNauts2\Engine\public\CharacterController.h
+  D:\PsycoNauts2\Engine\public\Collider.h
+  D:\PsycoNauts2\Engine\public\CollisionObject.h
+  D:\PsycoNauts2\Engine\public\Component.h
+  D:\PsycoNauts2\Engine\public\Component_Manager.h
+  D:\PsycoNauts2\Engine\public\ContactReportFilterShader.h
+  D:\PsycoNauts2\Engine\public\ControllerBehaviorCallback.h
+  D:\PsycoNauts2\Engine\public\ControllerHitReport.h
+  D:\PsycoNauts2\Engine\public\CustomFont.h
+  D:\PsycoNauts2\Engine\public\Data_Manager.h
+  D:\PsycoNauts2\Engine\public\DebugDraw.h
+  D:\PsycoNauts2\Engine\public\EffectData.h
+  D:\PsycoNauts2\Engine\public\Effect_Manager.h
+  D:\PsycoNauts2\Engine\public\Effect_Option.h
+  D:\PsycoNauts2\Engine\public\Engine_Defines.h
+  D:\PsycoNauts2\Engine\public\Engine_Enum.h
+  D:\PsycoNauts2\Engine\public\Engine_Function.h
+  D:\PsycoNauts2\Engine\public\Engine_Macro.h
+  D:\PsycoNauts2\Engine\public\Engine_Struct.h
+  D:\PsycoNauts2\Engine\public\Engine_Typedef.h
+  D:\PsycoNauts2\Engine\public\Font_Manager.h
+  D:\PsycoNauts2\Engine\public\Frustum.h
+  D:\PsycoNauts2\Engine\public\GameInstance.h
+  D:\PsycoNauts2\Engine\public\GameObject.h
+  D:\PsycoNauts2\Engine\public\Graphic_Device.h
+  D:\PsycoNauts2\Engine\public\HierarchyNode.h
+  D:\PsycoNauts2\Engine\public\Input_Device.h
+  D:\PsycoNauts2\Engine\public\Layer.h
+  D:\PsycoNauts2\Engine\public\Light.h
+  D:\PsycoNauts2\Engine\public\Light_Manager.h
+  D:\PsycoNauts2\Engine\public\MeshCollider.h
+  D:\PsycoNauts2\Engine\public\MeshContainer.h
+  D:\PsycoNauts2\Engine\public\Model.h
+  D:\PsycoNauts2\Engine\public\Navigation.h
+  D:\PsycoNauts2\Engine\public\NavMeshCollider.h
+  D:\PsycoNauts2\Engine\public\Object_Manager.h
+  D:\PsycoNauts2\Engine\public\PhysXCollider.h
+  D:\PsycoNauts2\Engine\public\PhysXScene_Manager.h
+  D:\PsycoNauts2\Engine\public\Picking.h
+  D:\PsycoNauts2\Engine\public\PipeLine.h
+  D:\PsycoNauts2\Engine\public\QuadTree.h
+  D:\PsycoNauts2\Engine\public\QueryFilterCallback.h
+  D:\PsycoNauts2\Engine\public\Renderer.h
+  D:\PsycoNauts2\Engine\public\RenderTarget.h
+  D:\PsycoNauts2\Engine\public\Scene.h
+  D:\PsycoNauts2\Engine\public\Scene_Manager.h
+  D:\PsycoNauts2\Engine\public\SimulationEventCallBack.h
+  D:\PsycoNauts2\Engine\public\SimulationFilterCallback.h
+  D:\PsycoNauts2\Engine\public\SoundManager.h
+  D:\PsycoNauts2\Engine\public\SphereCollider.h
+  D:\PsycoNauts2\Engine\public\Target_Manager.h
+  D:\PsycoNauts2\Engine\public\Texture.h
+  D:\PsycoNauts2\Engine\public\Timer.h
+  D:\PsycoNauts2\Engine\public\Timer_Manager.h
+  D:\PsycoNauts2\Engine\public\Transform.h
+  D:\PsycoNauts2\Engine\public\VIBuffer.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Cube.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_EffectRect.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Instance.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_LineStrip.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_PointInstance.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Rect.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_RectInstance.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_RectInstance_Clone.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Terrain.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Trail.h
+  D:\PsycoNauts2\Engine\public\VIBuffer_Triangle.h
+         75개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_AnimModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_BRDF.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Calculation.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Cube.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectRect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Line.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_PointInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_RectInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Terrain.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Trail.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Triangle.hlsl
+         14개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Defines.hpp
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_AnimModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_BRDF.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Calculation.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Cube.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectModel.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_EffectRect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Line.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Model.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_PointInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Rect.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_RectInstance.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Terrain.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Trail.hlsl
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Triangle.hlsl
+         14개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\bin\ShaderFiles\Shader_Defines.hpp
+          1개 파일이 복사되었습니다.
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\DirectXTK.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\DirectXTKd.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\Effects11.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\Effects11d.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevel.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelAABB.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelAABBDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelCloth.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelClothDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelDynamics.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelDynamicsDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelParticles.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\LowLevelParticlesDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CharacterKinematicDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CharacterKinematic_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CommonDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Common_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3CookingDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Cooking_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3DEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Extensions.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3ExtensionsDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3Vehicle.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3VehicleDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PhysX3_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PsFastXmlDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PsFastXml_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxFoundationDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxFoundation_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxPvdSDKDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxPvdSDK_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxTaskDEBUG_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\PxTask_x64.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SceneQuery.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SceneQueryDEBUG.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SimulationController.lib
+  D:\PsycoNauts2\Engine\ThirdPartyLibrarys\SimulationControllerDEBUG.lib
+         38개 파일이 복사되었습니다.

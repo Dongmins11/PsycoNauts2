@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D541EB2D-9FF9-4913-BAEE-4597CA68C824}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <IncludePath>../../FMod/core/inc;../../FMod/fsbank/inc;$(IncludePath)</IncludePath>
+    <LibraryPath>../../FMod/core/lib/x64;../../FMod/fsbank/lib/x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <IncludePath>../../FMod/core/inc;../../FMod/fsbank/inc;$(IncludePath)</IncludePath>
+    <LibraryPath>../../FMod/core/lib/x64;../../FMod/fsbank/lib/x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../public/;../../Reference/Headers/;../../Reference/Headers/Include/;../../Reference/DLL/</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../public/;../../Reference/Headers/;../../Reference/Headers/Include/;../../Reference/DLL/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ImGUI\imconfig.h" />
+    <ClInclude Include="..\..\ImGUI\imgui.h" />
+    <ClInclude Include="..\..\ImGUI\imgui_impl_dx11.h" />
+    <ClInclude Include="..\..\ImGUI\imgui_impl_win32.h" />
+    <ClInclude Include="..\..\ImGUI\imgui_internal.h" />
+    <ClInclude Include="..\..\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="..\..\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="..\..\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="..\public\AnimatedShelv.h" />
+    <ClInclude Include="..\public\Anvil.h" />
+    <ClInclude Include="..\public\Attack_BadIdea.h" />
+    <ClInclude Include="..\Public\Attack_Beater.h" />
+    <ClInclude Include="..\public\Attack_Censor.h" />
+    <ClInclude Include="..\public\Attack_CensorB.h" />
+    <ClInclude Include="..\public\Attack_Doubt.h" />
+    <ClInclude Include="..\Public\Attack_GoatF.h" />
+    <ClInclude Include="..\Public\Attack_GoatH.h" />
+    <ClInclude Include="..\Public\Attack_GoatO.h" />
+    <ClInclude Include="..\public\Attack_Judge.h" />
+    <ClInclude Include="..\public\Attack_Judge_UA.h" />
+    <ClInclude Include="..\Public\Attack_Spatula.h" />
+    <ClInclude Include="..\public\AttTrigger_GoatF.h" />
+    <ClInclude Include="..\Public\AttTrigger_GoatH.h" />
+    <ClInclude Include="..\Public\AttTrigger_GoatO.h" />
+    <ClInclude Include="..\public\AWaterCooler.h" />
+    <ClInclude Include="..\public\AWaterMelon.h" />
+    <ClInclude Include="..\public\BadIdea.h" />
+    <ClInclude Include="..\Public\BadIdea_AttTrigger.h" />
+    <ClInclude Include="..\public\BadIdea_Spawner.h" />
+    <ClInclude Include="..\public\Bag.h" />
+    <ClInclude Include="..\public\Balloon.h" />
+    <ClInclude Include="..\public\Ball_Anim.h" />
+    <ClInclude Include="..\public\Ball_Floating.h" />
+    <ClInclude Include="..\public\Ball_Jump.h" />
+    <ClInclude Include="..\public\Ball_ParentAnim.h" />
+    <ClInclude Include="..\public\Ball_Slide.h" />
+    <ClInclude Include="..\Public\Beater.h" />
+    <ClInclude Include="..\public\BeeHive.h" />
+    <ClInclude Include="..\public\Bell.h" />
+    <ClInclude Include="..\public\Blade.h" />
+    <ClInclude Include="..\public\Blender.h" />
+    <ClInclude Include="..\public\Blender2.h" />
+    <ClInclude Include="..\public\BlenderHead.h" />
+    <ClInclude Include="..\public\BlenderPath.h" />
+    <ClInclude Include="..\public\BlenderWave.h" />
+    <ClInclude Include="..\Public\Blob.h" />
+    <ClInclude Include="..\Public\Board_L.h" />
+    <ClInclude Include="..\Public\Board_R.h" />
+    <ClInclude Include="..\public\BossDonut.h" />
+    <ClInclude Include="..\Public\BossHpBar.h" />
+    <ClInclude Include="..\public\BossWall.h" />
+    <ClInclude Include="..\public\Boss_Dish.h" />
+    <ClInclude Include="..\public\Boss_Food_Projectile.h" />
+    <ClInclude Include="..\Public\Boss_Goat.h" />
+    <ClInclude Include="..\public\Bouncer.h" />
+    <ClInclude Include="..\public\Brain_Washing.h" />
+    <ClInclude Include="..\public\Bread.h" />
+    <ClInclude Include="..\public\BTNode.h" />
+    <ClInclude Include="..\public\Bulb.h" />
+    <ClInclude Include="..\public\Bulb_Trail.h" />
+    <ClInclude Include="..\public\Camera_Fly.h" />
+    <ClInclude Include="..\public\CencerB_Left_Trail.h" />
+    <ClInclude Include="..\public\CencerB_Right_Trail.h" />
+    <ClInclude Include="..\public\Choppig_HandKnife.h" />
+    <ClInclude Include="..\public\Choppig_PullHand.h" />
+    <ClInclude Include="..\public\Cloud.h" />
+    <ClInclude Include="..\public\Comput_Vent.h" />
+    <ClInclude Include="..\public\CookingEnd.h" />
+    <ClInclude Include="..\public\CookingProgressBarUI.h" />
+    <ClInclude Include="..\public\CookingUI.h" />
+    <ClInclude Include="..\public\Cracked_Denture.h" />
+    <ClInclude Include="..\public\CencerCSW.h" />
+    <ClInclude Include="..\public\CencerDonut.h" />
+    <ClInclude Include="..\public\Censor.h" />
+    <ClInclude Include="..\Public\CensorB_AttTriggerL.h" />
+    <ClInclude Include="..\Public\CensorB_AttTriggerR.h" />
+    <ClInclude Include="..\Public\Censor_AttTrigger.h" />
+    <ClInclude Include="..\public\Censor_Burly.h" />
+    <ClInclude Include="..\public\Censor_Spawner.h" />
+    <ClInclude Include="..\public\ChargeSingleWave.h" />
+    <ClInclude Include="..\public\ChargeWave.h" />
+    <ClInclude Include="..\public\Chase_BadIdea.h" />
+    <ClInclude Include="..\public\Chase_Censor.h" />
+    <ClInclude Include="..\public\Chase_CensorB.h" />
+    <ClInclude Include="..\public\Chase_Doubt.h" />
+    <ClInclude Include="..\public\Chase_Judge.h" />
+    <ClInclude Include="..\public\ChopA.h" />
+    <ClInclude Include="..\public\ChopB.h" />
+    <ClInclude Include="..\public\ChopC.h" />
+    <ClInclude Include="..\public\Client_Defines.h" />
+    <ClInclude Include="..\public\Client_PlayerAnimationDefines.h" />
+    <ClInclude Include="..\public\CompositeNode.h" />
+    <ClInclude Include="..\public\Dead_BadIdea.h" />
+    <ClInclude Include="..\public\Dead_Censor.h" />
+    <ClInclude Include="..\public\Dead_CensorB.h" />
+    <ClInclude Include="..\public\Dead_Doubt.h" />
+    <ClInclude Include="..\Public\Dead_GoatF.h" />
+    <ClInclude Include="..\Public\Dead_GoatH.h" />
+    <ClInclude Include="..\public\Dead_GoatO.h" />
+    <ClInclude Include="..\public\Dead_Judge.h" />
+    <ClInclude Include="..\public\Dead_Judge_UA.h" />
+    <ClInclude Include="..\public\DemoRect.h" />
+    <ClInclude Include="..\Public\Denture.h" />
+    <ClInclude Include="..\public\DizziStar.h" />
+    <ClInclude Include="..\public\DonutRing.h" />
+    <ClInclude Include="..\public\DoorZipper.h" />
+    <ClInclude Include="..\public\DoubleDoorBlocker.h" />
+    <ClInclude Include="..\public\Doubt.h" />
+    <ClInclude Include="..\public\Effect_EnviroParticle.h" />
+    <ClInclude Include="..\public\Effect_PointParticle.h" />
+    <ClInclude Include="..\public\Effect_RectClone.h" />
+    <ClInclude Include="..\public\Effect_RectParticle.h" />
+    <ClInclude Include="..\public\Effect_RectRepeat.h" />
+    <ClInclude Include="..\public\Effect_RepeatParticle.h" />
+    <ClInclude Include="..\public\Egg.h" />
+    <ClInclude Include="..\public\EndingObject.h" />
+    <ClInclude Include="..\public\EndingUI.h" />
+    <ClInclude Include="..\public\Enemy.h" />
+    <ClInclude Include="..\public\FadeInOut.h" />
+    <ClInclude Include="..\public\FallObject.h" />
+    <ClInclude Include="..\public\Fruit.h" />
+    <ClInclude Include="..\public\FruitCheckTrigger.h" />
+    <ClInclude Include="..\Public\Fruits.h" />
+    <ClInclude Include="..\public\FruitSpawner.h" />
+    <ClInclude Include="..\Public\FruitsPortal_L.h" />
+    <ClInclude Include="..\Public\FruitsPortal_R.h" />
+    <ClInclude Include="..\public\GasBurner.h" />
+    <ClInclude Include="..\public\GiantCloche.h" />
+    <ClInclude Include="..\Public\GoatFord.h" />
+    <ClInclude Include="..\Public\GoatHollis.h" />
+    <ClInclude Include="..\public\GoatOtto.h" />
+    <ClInclude Include="..\public\Griddle.h" />
+    <ClInclude Include="..\public\HaroldMouse.h" />
+    <ClInclude Include="..\public\HealthPack.h" />
+    <ClInclude Include="..\public\HippoLegs.h" />
+    <ClInclude Include="..\public\Hit_BadIdea.h" />
+    <ClInclude Include="..\public\Hit_Censor.h" />
+    <ClInclude Include="..\public\Hit_CensorB.h" />
+    <ClInclude Include="..\public\Hit_Doubt.h" />
+    <ClInclude Include="..\Public\Hit_GoatF.h" />
+    <ClInclude Include="..\Public\Hit_GoatH.h" />
+    <ClInclude Include="..\Public\Hit_GoatO.h" />
+    <ClInclude Include="..\public\Hit_Judge.h" />
+    <ClInclude Include="..\public\Hit_Judge_UA.h" />
+    <ClInclude Include="..\public\HostZone.h" />
+    <ClInclude Include="..\public\Idle_BadIdea.h" />
+    <ClInclude Include="..\Public\Idle_Beater.h" />
+    <ClInclude Include="..\public\Idle_Censor.h" />
+    <ClInclude Include="..\public\Idle_CensorB.h" />
+    <ClInclude Include="..\public\Idle_Doubt.h" />
+    <ClInclude Include="..\Public\Idle_GoatF.h" />
+    <ClInclude Include="..\Public\Idle_GoatH.h" />
+    <ClInclude Include="..\Public\Idle_GoatO.h" />
+    <ClInclude Include="..\public\Idle_Judge.h" />
+    <ClInclude Include="..\public\Idle_Judge_UA.h" />
+    <ClInclude Include="..\Public\Idle_Spatula.h" />
+    <ClInclude Include="..\public\ImGUIManager.h" />
+    <ClInclude Include="..\public\Background.h" />
+    <ClInclude Include="..\public\ImpactWave.h" />
+    <ClInclude Include="..\public\INGHole.h" />
+    <ClInclude Include="..\Public\Intro_Beater.h" />
+    <ClInclude Include="..\Public\Intro_Spatula.h" />
+    <ClInclude Include="..\public\Judge.h" />
+    <ClInclude Include="..\public\JudgeDonut.h" />
+    <ClInclude Include="..\Public\JudgeWeapon_AttTrigger.h" />
+    <ClInclude Include="..\Public\Judge_AttTrigger.h" />
+    <ClInclude Include="..\public\Judge_Book.h" />
+    <ClInclude Include="..\public\Judge_Trail.h" />
+    <ClInclude Include="..\public\Judge_Weapon.h" />
+    <ClInclude Include="..\public\Judge_Weaponhead.h" />
+    <ClInclude Include="..\public\Key_2D.h" />
+    <ClInclude Include="..\public\KitchenPan.h" />
+    <ClInclude Include="..\public\KitchenPanButton.h" />
+    <ClInclude Include="..\public\Left_Hand_Throw_Finished.h" />
+    <ClInclude Include="..\public\Left_Hand_Throw_Idle.h" />
+    <ClInclude Include="..\public\Left_Hand_Throw_Left.h" />
+    <ClInclude Include="..\public\LightBar.h" />
+    <ClInclude Include="..\public\LoadingThreadUI.h" />
+    <ClInclude Include="..\public\Loading_Player.h" />
+    <ClInclude Include="..\public\Lock_2D.h" />
+    <ClInclude Include="..\public\Lock_Object.h" />
+    <ClInclude Include="..\public\MonsterInfo.h" />
+    <ClInclude Include="..\public\Monster_2D.h" />
+    <ClInclude Include="..\Public\Monster_HpBar.h" />
+    <ClInclude Include="..\public\MoveNpc.h" />
+    <ClInclude Include="..\Public\NonBT_Ford.h" />
+    <ClInclude Include="..\Public\NonBT_Hollis.h" />
+    <ClInclude Include="..\Public\NonBT_Otto.h" />
+    <ClInclude Include="..\public\NormalQuest.h" />
+    <ClInclude Include="..\public\Not_Affected_Render.h" />
+    <ClInclude Include="..\public\NpcCoach.h" />
+    <ClInclude Include="..\public\NpcLoboto.h" />
+    <ClInclude Include="..\public\NpcSasha.h" />
+    <ClInclude Include="..\public\OfficeWalls.h" />
+    <ClInclude Include="..\public\Onion.h" />
+    <ClInclude Include="..\public\Plane_2D.h" />
+    <ClInclude Include="..\public\PlatingPlate_Phase0.h" />
+    <ClInclude Include="..\public\PlatingPlate_Phase1.h" />
+    <ClInclude Include="..\public\PlatingPlate_Phase2.h" />
+    <ClInclude Include="..\public\Player_2D.h" />
+    <ClInclude Include="..\public\Player_Blender_Climbing.h" />
+    <ClInclude Include="..\public\Player_Blender_Climbing_Jump.h" />
+    <ClInclude Include="..\public\Player_Blender_Climbing_JumpEnd.h" />
+    <ClInclude Include="..\public\Player_Bouncer.h" />
+    <ClInclude Include="..\public\Player_CloudAnim.h" />
+    <ClInclude Include="..\public\Player_CloudAnim_End.h" />
+    <ClInclude Include="..\public\Player_CutScene.h" />
+    <ClInclude Include="..\public\Player_Dish_Throw.h" />
+    <ClInclude Include="..\public\Player_Food_Throw.h" />
+    <ClInclude Include="..\public\Player_GroundSlide.h" />
+    <ClInclude Include="..\public\Player_KitchenButton.h" />
+    <ClInclude Include="..\public\Player_KnockBack.h" />
+    <ClInclude Include="..\public\Player_PullSwitch.h" />
+    <ClInclude Include="..\public\Player_PullSwitch_Move.h" />
+    <ClInclude Include="..\public\Player_RailSlide.h" />
+    <ClInclude Include="..\public\Player_Throw_Left.h" />
+    <ClInclude Include="..\public\Player_Throw_Right.h" />
+    <ClInclude Include="..\public\Player_TrampolineJump.h" />
+    <ClInclude Include="..\public\Player_WalkStop.h" />
+    <ClInclude Include="..\public\Pork.h" />
+    <ClInclude Include="..\public\PPlate.h" />
+    <ClInclude Include="..\public\PsyBLExit.h" />
+    <ClInclude Include="..\Public\PukeFruit.h" />
+    <ClInclude Include="..\Public\Puke_Ball.h" />
+    <ClInclude Include="..\Public\Puke_Laser.h" />
+    <ClInclude Include="..\public\PyroPainting.h" />
+    <ClInclude Include="..\public\Quest.h" />
+    <ClInclude Include="..\public\QuestManager.h" />
+    <ClInclude Include="..\public\QuestNpc.h" />
+    <ClInclude Include="..\public\QuestScriptUI.h" />
+    <ClInclude Include="..\public\QuestUI.h" />
+    <ClInclude Include="..\public\RailSlide.h" />
+    <ClInclude Include="..\public\RectEffect_BoneMat.h" />
+    <ClInclude Include="..\public\RectEffect_Environment.h" />
+    <ClInclude Include="..\public\Right_Hand_Throw_Finished.h" />
+    <ClInclude Include="..\public\Right_Hand_Throw_Idle.h" />
+    <ClInclude Include="..\public\Right_Hand_Throw_Right.h" />
+    <ClInclude Include="..\public\Scene_Ending.h" />
+    <ClInclude Include="..\public\Scene_Stage02.h" />
+    <ClInclude Include="..\public\Scene_Stage03.h" />
+    <ClInclude Include="..\public\Scene_Stage04.h" />
+    <ClInclude Include="..\public\Scene_Stage05.h" />
+    <ClInclude Include="..\public\Skill_Info.h" />
+    <ClInclude Include="..\Public\Spatula.h" />
+    <ClInclude Include="..\Public\Spawn_GoatF.h" />
+    <ClInclude Include="..\Public\Spawn_GoatH.h" />
+    <ClInclude Include="..\Public\Spawn_GoatO.h" />
+    <ClInclude Include="..\public\SpinHole.h" />
+    <ClInclude Include="..\public\SS_Cuff.h" />
+    <ClInclude Include="..\public\Stage1File_Cabinet.h" />
+    <ClInclude Include="..\public\Stage3BossDish.h" />
+    <ClInclude Include="..\public\Stage4Mercial.h" />
+    <ClInclude Include="..\Public\Static_Bell.h" />
+    <ClInclude Include="..\public\StationRamp0.h" />
+    <ClInclude Include="..\public\StationRamp1.h" />
+    <ClInclude Include="..\public\Stolen_Judge.h" />
+    <ClInclude Include="..\public\Strawberry.h" />
+    <ClInclude Include="..\public\StudioCam.h" />
+    <ClInclude Include="..\Public\Taunt_Beater.h" />
+    <ClInclude Include="..\Public\Taunt_GoatF.h" />
+    <ClInclude Include="..\Public\Taunt_GoatH.h" />
+    <ClInclude Include="..\Public\Taunt_GoatO.h" />
+    <ClInclude Include="..\Public\Taunt_Spatula.h" />
+    <ClInclude Include="..\public\TimerUI.h" />
+    <ClInclude Include="..\public\Trail_Effect.h" />
+    <ClInclude Include="..\public\Trampoline.h" />
+    <ClInclude Include="..\public\Jump_BadIdea.h" />
+    <ClInclude Include="..\public\Jump_Censor.h" />
+    <ClInclude Include="..\public\Jump_CensorB.h" />
+    <ClInclude Include="..\public\Jump_Judge.h" />
+    <ClInclude Include="..\public\Jump_Judge_UA.h" />
+    <ClInclude Include="..\public\Left_Hand_Anim.h" />
+    <ClInclude Include="..\public\Left_Hand_ChopA.h" />
+    <ClInclude Include="..\public\Left_Hand_ChopC.h" />
+    <ClInclude Include="..\public\Left_Hand_Default.h" />
+    <ClInclude Include="..\public\Left_Hand_ParentAnim.h" />
+    <ClInclude Include="..\public\Loading_UI.h" />
+    <ClInclude Include="..\public\Loboto.h" />
+    <ClInclude Include="..\public\MoveCabinet.h" />
+    <ClInclude Include="..\public\Move_Doubt.h" />
+    <ClInclude Include="..\public\Npc.h" />
+    <ClInclude Include="..\public\NpcDoor.h" />
+    <ClInclude Include="..\public\Plane.h" />
+    <ClInclude Include="..\public\Player.h" />
+    <ClInclude Include="..\public\PlayerHPBar.h" />
+    <ClInclude Include="..\public\PlayerTrigger.h" />
+    <ClInclude Include="..\public\PlayerTrigger_Body.h" />
+    <ClInclude Include="..\public\PlayerTrigger_Parkour.h" />
+    <ClInclude Include="..\public\PlayerTrigger_Sphere.h" />
+    <ClInclude Include="..\public\Player_AnimState.h" />
+    <ClInclude Include="..\public\Player_Ball.h" />
+    <ClInclude Include="..\public\Player_Balling.h" />
+    <ClInclude Include="..\public\Player_BrainStom.h" />
+    <ClInclude Include="..\public\Player_BrainWashing.h" />
+    <ClInclude Include="..\public\Player_ComboAttack.h" />
+    <ClInclude Include="..\public\Player_Dash.h" />
+    <ClInclude Include="..\public\Player_Dash_Attack.h" />
+    <ClInclude Include="..\public\Player_Dead.h" />
+    <ClInclude Include="..\public\Player_Dodge.h" />
+    <ClInclude Include="..\public\Player_DownAttack.h" />
+    <ClInclude Include="..\public\Player_Falling.h" />
+    <ClInclude Include="..\public\Player_Floting.h" />
+    <ClInclude Include="..\public\Player_GrabAttack.h" />
+    <ClInclude Include="..\public\Player_GrabBack.h" />
+    <ClInclude Include="..\public\Player_Hit.h" />
+    <ClInclude Include="..\public\Player_IdleAnim.h" />
+    <ClInclude Include="..\public\Player_Jump.h" />
+    <ClInclude Include="..\public\Player_Landing.h" />
+    <ClInclude Include="..\public\Player_Ledge.h" />
+    <ClInclude Include="..\public\Player_LedgeJump.h" />
+    <ClInclude Include="..\public\Player_LedgeMove.h" />
+    <ClInclude Include="..\public\Player_LeftHand.h" />
+    <ClInclude Include="..\public\Player_ParentAnim.h" />
+    <ClInclude Include="..\public\Player_Pisblast.h" />
+    <ClInclude Include="..\public\Player_RightHand.h" />
+    <ClInclude Include="..\public\Player_RunAnim.h" />
+    <ClInclude Include="..\public\Player_Slider.h" />
+    <ClInclude Include="..\public\Player_StopAnim.h" />
+    <ClInclude Include="..\public\Player_Walk.h" />
+    <ClInclude Include="..\public\PullingGrab.h" />
+    <ClInclude Include="..\public\PurseRing.h" />
+    <ClInclude Include="..\public\RectEffect.h" />
+    <ClInclude Include="..\public\RectEffect_Once.h" />
+    <ClInclude Include="..\public\Right_Hand_Anim.h" />
+    <ClInclude Include="..\public\Right_Hand_ChopB.h" />
+    <ClInclude Include="..\public\Right_Hand_Default.h" />
+    <ClInclude Include="..\public\Right_Hand_Grab_Toss.h" />
+    <ClInclude Include="..\public\Right_Hand_Grap.h" />
+    <ClInclude Include="..\public\Right_Parent_Anim.h" />
+    <ClInclude Include="..\public\Run_BadIdea.h" />
+    <ClInclude Include="..\public\Run_Censor.h" />
+    <ClInclude Include="..\public\Run_CensorB.h" />
+    <ClInclude Include="..\public\Run_Judge.h" />
+    <ClInclude Include="..\public\Run_Judge_UA.h" />
+    <ClInclude Include="..\public\Scene_Demo.h" />
+    <ClInclude Include="..\public\Scene_Loading.h" />
+    <ClInclude Include="..\public\Scene_Logo.h" />
+    <ClInclude Include="..\public\Loader.h" />
+    <ClInclude Include="..\public\MainApp.h" />
+    <ClInclude Include="..\public\Scene_Stage01.h" />
+    <ClInclude Include="..\public\Selector.h" />
+    <ClInclude Include="..\public\Sequence.h" />
+    <ClInclude Include="..\public\Skill_BrainStrom.h" />
+    <ClInclude Include="..\public\Skill_PisBlast.h" />
+    <ClInclude Include="..\public\Skill_UI.h" />
+    <ClInclude Include="..\public\SkyBox.h" />
+    <ClInclude Include="..\public\SlidingMesh.h" />
+    <ClInclude Include="..\public\Spawn_BadIdea.h" />
+    <ClInclude Include="..\public\Spawn_Censor.h" />
+    <ClInclude Include="..\public\Spawn_CensorB.h" />
+    <ClInclude Include="..\public\Spawn_Doubt.h" />
+    <ClInclude Include="..\public\Spawn_Judge.h" />
+    <ClInclude Include="..\public\SpinSwipe.h" />
+    <ClInclude Include="..\public\Stage02Button.h" />
+    <ClInclude Include="..\public\Static_Mesh.h" />
+    <ClInclude Include="..\public\EnviromentTrigger.h" />
+    <ClInclude Include="..\public\Tooth.h" />
+    <ClInclude Include="..\public\ToothFairy.h" />
+    <ClInclude Include="..\public\Treasure.h" />
+    <ClInclude Include="..\public\TumbleAttack.h" />
+    <ClInclude Include="..\public\Tuto_MessageUI.h" />
+    <ClInclude Include="..\public\Tuto_ScriptUI.h" />
+    <ClInclude Include="..\public\VentDoor.h" />
+    <ClInclude Include="..\public\Walk_BadIdea.h" />
+    <ClInclude Include="..\public\Walk_Censor.h" />
+    <ClInclude Include="..\public\Walk_CensorB.h" />
+    <ClInclude Include="..\public\Walk_Judge.h" />
+    <ClInclude Include="..\public\Walk_Judge_UA.h" />
+    <ClInclude Include="..\public\WallCollision.h" />
+    <ClInclude Include="..\public\Washing_Trail.h" />
+    <ClInclude Include="..\public\Water.h" />
+    <ClInclude Include="..\public\WaterWave.h" />
+    <ClInclude Include="..\public\ZiantLoboto.h" />
+    <ClInclude Include="..\public\Zip.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ImGUI\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_impl_dx11.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGUI\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\private\AnimatedShelv.cpp" />
+    <ClCompile Include="..\private\Anvil.cpp" />
+    <ClCompile Include="..\private\Attack_BadIdea.cpp" />
+    <ClCompile Include="..\Private\Attack_Beater.cpp" />
+    <ClCompile Include="..\private\Attack_Censor.cpp" />
+    <ClCompile Include="..\private\Attack_CensorB.cpp" />
+    <ClCompile Include="..\private\Attack_Doubt.cpp" />
+    <ClCompile Include="..\Private\Attack_GoatF.cpp" />
+    <ClCompile Include="..\Private\Attack_GoatH.cpp" />
+    <ClCompile Include="..\Private\Attack_GoatO.cpp" />
+    <ClCompile Include="..\private\Attack_Judge.cpp" />
+    <ClCompile Include="..\private\Attack_Judge_UA.cpp" />
+    <ClCompile Include="..\Private\Attack_Spatula.cpp" />
+    <ClCompile Include="..\Private\AttTrigger_GoatF.cpp" />
+    <ClCompile Include="..\Private\AttTrigger_GoatH.cpp" />
+    <ClCompile Include="..\Private\AttTrigger_GoatO.cpp" />
+    <ClCompile Include="..\private\AWaterCooler.cpp" />
+    <ClCompile Include="..\private\AWaterMelon.cpp" />
+    <ClCompile Include="..\private\BadIdea.cpp" />
+    <ClCompile Include="..\Private\BadIdea_AttTrigger.cpp" />
+    <ClCompile Include="..\private\BadIdea_Spawner.cpp" />
+    <ClCompile Include="..\private\Bag.cpp" />
+    <ClCompile Include="..\private\Balloon.cpp" />
+    <ClCompile Include="..\private\Ball_Anim.cpp" />
+    <ClCompile Include="..\private\Ball_Floating.cpp" />
+    <ClCompile Include="..\private\Ball_Jump.cpp" />
+    <ClCompile Include="..\private\Ball_ParentAnim.cpp" />
+    <ClCompile Include="..\private\Ball_Slide.cpp" />
+    <ClCompile Include="..\Private\Beater.cpp" />
+    <ClCompile Include="..\private\BeeHive.cpp" />
+    <ClCompile Include="..\private\Bell.cpp" />
+    <ClCompile Include="..\private\Blade.cpp" />
+    <ClCompile Include="..\private\Blender.cpp" />
+    <ClCompile Include="..\private\Blender2.cpp" />
+    <ClCompile Include="..\private\BlenderHead.cpp" />
+    <ClCompile Include="..\private\BlenderPath.cpp" />
+    <ClCompile Include="..\private\BlenderWave.cpp" />
+    <ClCompile Include="..\Private\Blob.cpp" />
+    <ClCompile Include="..\Private\Board_L.cpp" />
+    <ClCompile Include="..\Private\Board_R.cpp" />
+    <ClCompile Include="..\private\BossDonut.cpp" />
+    <ClCompile Include="..\Private\BossHpBar.cpp" />
+    <ClCompile Include="..\private\BossWall.cpp" />
+    <ClCompile Include="..\private\Boss_Dish.cpp" />
+    <ClCompile Include="..\private\Boss_Food_Projectile.cpp" />
+    <ClCompile Include="..\Private\Boss_Goat.cpp" />
+    <ClCompile Include="..\private\Bouncer.cpp" />
+    <ClCompile Include="..\private\Brain_Washing.cpp" />
+    <ClCompile Include="..\private\Bread.cpp" />
+    <ClCompile Include="..\private\BTNode.cpp" />
+    <ClCompile Include="..\private\Bulb.cpp" />
+    <ClCompile Include="..\private\Bulb_Trail.cpp" />
+    <ClCompile Include="..\private\Camera_Fly.cpp" />
+    <ClCompile Include="..\private\CencerB_Left_Trail.cpp" />
+    <ClCompile Include="..\private\CencerB_Right_Trail.cpp" />
+    <ClCompile Include="..\private\CencerCSW.cpp" />
+    <ClCompile Include="..\private\CencerDonut.cpp" />
+    <ClCompile Include="..\private\Censor.cpp" />
+    <ClCompile Include="..\Private\CensorB_AttTriggerL.cpp" />
+    <ClCompile Include="..\Private\CensorB_AttTriggerR.cpp" />
+    <ClCompile Include="..\Private\Censor_AttTrigger.cpp" />
+    <ClCompile Include="..\private\Censor_Burly.cpp" />
+    <ClCompile Include="..\private\Censor_Spawner.cpp" />
+    <ClCompile Include="..\private\ChargeSingleWave.cpp" />
+    <ClCompile Include="..\private\ChargeWave.cpp" />
+    <ClCompile Include="..\private\Chase_BadIdea.cpp" />
+    <ClCompile Include="..\private\Chase_Censor.cpp" />
+    <ClCompile Include="..\private\Chase_CensorB.cpp" />
+    <ClCompile Include="..\private\Chase_Doubt.cpp" />
+    <ClCompile Include="..\private\Chase_Judge.cpp" />
+    <ClCompile Include="..\private\ChopA.cpp" />
+    <ClCompile Include="..\private\ChopB.cpp" />
+    <ClCompile Include="..\private\ChopC.cpp" />
+    <ClCompile Include="..\private\Choppig_HandKnife.cpp" />
+    <ClCompile Include="..\private\Choppig_PullHand.cpp" />
+    <ClCompile Include="..\private\Cloud.cpp" />
+    <ClCompile Include="..\private\CompositeNode.cpp" />
+    <ClCompile Include="..\private\Comput_Vent.cpp" />
+    <ClCompile Include="..\private\CookingEnd.cpp" />
+    <ClCompile Include="..\private\CookingProgressBarUI.cpp" />
+    <ClCompile Include="..\private\CookingUI.cpp" />
+    <ClCompile Include="..\private\Dead_BadIdea.cpp" />
+    <ClCompile Include="..\private\Dead_Censor.cpp" />
+    <ClCompile Include="..\private\Dead_CensorB.cpp" />
+    <ClCompile Include="..\private\Dead_Doubt.cpp" />
+    <ClCompile Include="..\Private\Dead_GoatF.cpp" />
+    <ClCompile Include="..\Private\Dead_GoatH.cpp" />
+    <ClCompile Include="..\private\Dead_GoatO.cpp" />
+    <ClCompile Include="..\private\Dead_Judge.cpp" />
+    <ClCompile Include="..\private\Dead_Judge_UA.cpp" />
+    <ClCompile Include="..\private\DemoRect.cpp" />
+    <ClCompile Include="..\Private\Denture.cpp" />
+    <ClCompile Include="..\private\DizziStar.cpp" />
+    <ClCompile Include="..\private\DonutRing.cpp" />
+    <ClCompile Include="..\private\DoorZipper.cpp" />
+    <ClCompile Include="..\private\DoubleDoorBlocker.cpp" />
+    <ClCompile Include="..\private\Doubt.cpp" />
+    <ClCompile Include="..\private\Effect_EnviroParticle.cpp" />
+    <ClCompile Include="..\private\Effect_PointParticle.cpp" />
+    <ClCompile Include="..\private\Effect_RectClone.cpp" />
+    <ClCompile Include="..\private\Effect_RectParticle.cpp" />
+    <ClCompile Include="..\private\Effect_RectRepeat.cpp" />
+    <ClCompile Include="..\private\Effect_RepeatParticle.cpp" />
+    <ClCompile Include="..\private\Egg.cpp" />
+    <ClCompile Include="..\private\EndingObject.cpp" />
+    <ClCompile Include="..\private\EndingUI.cpp" />
+    <ClCompile Include="..\private\Enemy.cpp" />
+    <ClCompile Include="..\private\FadeInOut.cpp" />
+    <ClCompile Include="..\private\FallObject.cpp" />
+    <ClCompile Include="..\private\Fruit.cpp" />
+    <ClCompile Include="..\private\FruitCheckTrigger.cpp" />
+    <ClCompile Include="..\Private\Fruits.cpp" />
+    <ClCompile Include="..\private\FruitSpawner.cpp" />
+    <ClCompile Include="..\Private\FruitsPortal_L.cpp" />
+    <ClCompile Include="..\Private\FruitsPortal_R.cpp" />
+    <ClCompile Include="..\private\GasBurner.cpp" />
+    <ClCompile Include="..\private\GiantCloche.cpp" />
+    <ClCompile Include="..\Private\GoatFord.cpp" />
+    <ClCompile Include="..\Private\GoatHollis.cpp" />
+    <ClCompile Include="..\Private\GoatOtto.cpp" />
+    <ClCompile Include="..\private\Griddle.cpp" />
+    <ClCompile Include="..\private\HaroldMouse.cpp" />
+    <ClCompile Include="..\private\HealthPack.cpp" />
+    <ClCompile Include="..\private\HippoLegs.cpp" />
+    <ClCompile Include="..\private\Hit_BadIdea.cpp" />
+    <ClCompile Include="..\private\Hit_Censor.cpp" />
+    <ClCompile Include="..\private\Hit_CensorB.cpp" />
+    <ClCompile Include="..\private\Hit_Doubt.cpp" />
+    <ClCompile Include="..\Private\Hit_GoatF.cpp" />
+    <ClCompile Include="..\Private\Hit_GoatH.cpp" />
+    <ClCompile Include="..\Private\Hit_GoatO.cpp" />
+    <ClCompile Include="..\private\Hit_Judge.cpp" />
+    <ClCompile Include="..\private\Hit_Judge_UA.cpp" />
+    <ClCompile Include="..\private\HostZone.cpp" />
+    <ClCompile Include="..\private\Idle_BadIdea.cpp" />
+    <ClCompile Include="..\Private\Idle_Beater.cpp" />
+    <ClCompile Include="..\private\Idle_Censor.cpp" />
+    <ClCompile Include="..\private\Idle_CensorB.cpp" />
+    <ClCompile Include="..\private\Idle_Doubt.cpp" />
+    <ClCompile Include="..\Private\Idle_GoatF.cpp" />
+    <ClCompile Include="..\Private\Idle_GoatH.cpp" />
+    <ClCompile Include="..\Private\Idle_GoatO.cpp" />
+    <ClCompile Include="..\private\Idle_Judge.cpp" />
+    <ClCompile Include="..\private\Idle_Judge_UA.cpp" />
+    <ClCompile Include="..\Private\Idle_Spatula.cpp" />
+    <ClCompile Include="..\private\ImGUIManager.cpp" />
+    <ClCompile Include="..\private\Background.cpp" />
+    <ClCompile Include="..\private\ImpactWave.cpp" />
+    <ClCompile Include="..\private\INGHole.cpp" />
+    <ClCompile Include="..\Private\Intro_Beater.cpp" />
+    <ClCompile Include="..\Private\Intro_Spatula.cpp" />
+    <ClCompile Include="..\private\Judge.cpp" />
+    <ClCompile Include="..\private\JudgeDonut.cpp" />
+    <ClCompile Include="..\Private\JudgeWeapon_AttTrigger.cpp" />
+    <ClCompile Include="..\Private\Judge_AttTrigger.cpp" />
+    <ClCompile Include="..\private\Judge_Book.cpp" />
+    <ClCompile Include="..\private\Judge_Trail.cpp" />
+    <ClCompile Include="..\private\Judge_Weapon.cpp" />
+    <ClCompile Include="..\private\Judge_Weaponhead.cpp" />
+    <ClCompile Include="..\private\Key_2D.cpp" />
+    <ClCompile Include="..\private\KitchenPan.cpp" />
+    <ClCompile Include="..\private\KitchenPanButton.cpp" />
+    <ClCompile Include="..\private\Left_Hand_Throw_Finished.cpp" />
+    <ClCompile Include="..\private\Left_Hand_Throw_Idle.cpp" />
+    <ClCompile Include="..\private\Left_Hand_Throw_Left.cpp" />
+    <ClCompile Include="..\private\LightBar.cpp" />
+    <ClCompile Include="..\private\LoadingThreadUI.cpp" />
+    <ClCompile Include="..\private\Loading_Player.cpp" />
+    <ClCompile Include="..\private\Lock_2D.cpp" />
+    <ClCompile Include="..\private\Lock_Object.cpp" />
+    <ClCompile Include="..\Private\MonsterInfo.cpp" />
+    <ClCompile Include="..\private\Monster_2D.cpp" />
+    <ClCompile Include="..\Private\Monster_HpBar.cpp" />
+    <ClCompile Include="..\private\MoveNpc.cpp" />
+    <ClCompile Include="..\Private\NonBT_Ford.cpp" />
+    <ClCompile Include="..\Private\NonBT_Hollis.cpp" />
+    <ClCompile Include="..\Private\NonBT_Otto.cpp" />
+    <ClCompile Include="..\private\NormalQuest.cpp" />
+    <ClCompile Include="..\private\Not_Affected_Render.cpp" />
+    <ClCompile Include="..\private\NpcCoach.cpp" />
+    <ClCompile Include="..\private\NpcLoboto.cpp" />
+    <ClCompile Include="..\private\NpcSasha.cpp" />
+    <ClCompile Include="..\private\OfficeWalls.cpp" />
+    <ClCompile Include="..\private\Onion.cpp" />
+    <ClCompile Include="..\private\Plane_2D.cpp" />
+    <ClCompile Include="..\private\PlatingPlate_Phase0.cpp" />
+    <ClCompile Include="..\private\PlatingPlate_Phase1.cpp" />
+    <ClCompile Include="..\private\PlatingPlate_Phase2.cpp" />
+    <ClCompile Include="..\private\Player_2D.cpp" />
+    <ClCompile Include="..\private\Player_Blender_Climbing.cpp" />
+    <ClCompile Include="..\private\Player_Blender_Climbing_Jump.cpp" />
+    <ClCompile Include="..\private\Player_Blender_Climbing_JumpEnd.cpp" />
+    <ClCompile Include="..\private\Player_Bouncer.cpp" />
+    <ClCompile Include="..\private\Player_CloudAnim.cpp" />
+    <ClCompile Include="..\private\Player_CloudAnim_End.cpp" />
+    <ClCompile Include="..\private\Player_CutScene.cpp" />
+    <ClCompile Include="..\private\Player_Dish_Throw.cpp" />
+    <ClCompile Include="..\private\Player_Food_Throw.cpp" />
+    <ClCompile Include="..\private\Player_GroundSlide.cpp" />
+    <ClCompile Include="..\private\Player_KitchenButton.cpp" />
+    <ClCompile Include="..\private\Player_KnockBack.cpp" />
+    <ClCompile Include="..\private\Player_PullSwitch.cpp" />
+    <ClCompile Include="..\private\Player_PullSwitch_Move.cpp" />
+    <ClCompile Include="..\private\Player_RailSlide.cpp" />
+    <ClCompile Include="..\private\Player_Throw_Left.cpp" />
+    <ClCompile Include="..\private\Player_Throw_Right.cpp" />
+    <ClCompile Include="..\private\Player_TrampolineJump.cpp" />
+    <ClCompile Include="..\private\Player_WalkStop.cpp" />
+    <ClCompile Include="..\private\Pork.cpp" />
+    <ClCompile Include="..\private\PPlate.cpp" />
+    <ClCompile Include="..\private\PsyBLExit.cpp" />
+    <ClCompile Include="..\Private\PukeFruit.cpp" />
+    <ClCompile Include="..\Private\Puke_Ball.cpp" />
+    <ClCompile Include="..\Private\Puke_Laser.cpp" />
+    <ClCompile Include="..\private\PyroPainting.cpp" />
+    <ClCompile Include="..\private\Quest.cpp" />
+    <ClCompile Include="..\private\QuestManager.cpp" />
+    <ClCompile Include="..\private\QuestNpc.cpp" />
+    <ClCompile Include="..\private\QuestScriptUI.cpp" />
+    <ClCompile Include="..\private\QuestUI.cpp" />
+    <ClCompile Include="..\private\RailSlide.cpp" />
+    <ClCompile Include="..\private\RectEffect_BoneMat.cpp" />
+    <ClCompile Include="..\private\RectEffect_Environment.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Throw_Finished.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Throw_Idle.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Throw_Right.cpp" />
+    <ClCompile Include="..\private\Scene_Ending.cpp" />
+    <ClCompile Include="..\private\Scene_Stage02.cpp" />
+    <ClCompile Include="..\private\Scene_Stage03.cpp" />
+    <ClCompile Include="..\private\Scene_Stage04.cpp" />
+    <ClCompile Include="..\private\Scene_Stage05.cpp" />
+    <ClCompile Include="..\private\Skill_Info.cpp" />
+    <ClCompile Include="..\Private\Spatula.cpp" />
+    <ClCompile Include="..\Private\Spawn_GoatF.cpp" />
+    <ClCompile Include="..\Private\Spawn_GoatH.cpp" />
+    <ClCompile Include="..\Private\Spawn_GoatO.cpp" />
+    <ClCompile Include="..\private\SpinHole.cpp" />
+    <ClCompile Include="..\private\SS_Cuff.cpp" />
+    <ClCompile Include="..\private\Stage1File_Cabinet.cpp" />
+    <ClCompile Include="..\private\Stage3BossDish.cpp" />
+    <ClCompile Include="..\private\Stage4Mercial.cpp" />
+    <ClCompile Include="..\Private\Static_Bell.cpp" />
+    <ClCompile Include="..\private\StationRamp0.cpp" />
+    <ClCompile Include="..\private\StationRamp1.cpp" />
+    <ClCompile Include="..\private\Stolen_Judge.cpp" />
+    <ClCompile Include="..\private\Strawberry.cpp" />
+    <ClCompile Include="..\private\StudioCam.cpp" />
+    <ClCompile Include="..\Private\Taunt_Beater.cpp" />
+    <ClCompile Include="..\Private\Taunt_GoatF.cpp" />
+    <ClCompile Include="..\Private\Taunt_GoatH.cpp" />
+    <ClCompile Include="..\Private\Taunt_GoatO.cpp" />
+    <ClCompile Include="..\Private\Taunt_Spatula.cpp" />
+    <ClCompile Include="..\private\TimerUI.cpp" />
+    <ClCompile Include="..\private\Trail_Effect.cpp" />
+    <ClCompile Include="..\private\Trampoline.cpp" />
+    <ClCompile Include="..\private\Jump_BadIdea.cpp" />
+    <ClCompile Include="..\private\Jump_Censor.cpp" />
+    <ClCompile Include="..\private\Jump_CensorB.cpp" />
+    <ClCompile Include="..\private\Jump_Judge.cpp" />
+    <ClCompile Include="..\private\Jump_Judge_UA.cpp" />
+    <ClCompile Include="..\private\Left_Hand_Anim.cpp" />
+    <ClCompile Include="..\private\Left_Hand_ChopA.cpp" />
+    <ClCompile Include="..\private\Left_Hand_ChopC.cpp" />
+    <ClCompile Include="..\private\Left_Hand_Default.cpp" />
+    <ClCompile Include="..\private\Left_Hand_ParentAnim.cpp" />
+    <ClCompile Include="..\private\Loading_UI.cpp" />
+    <ClCompile Include="..\private\Loboto.cpp" />
+    <ClCompile Include="..\private\MoveCabinet.cpp" />
+    <ClCompile Include="..\private\Move_Doubt.cpp" />
+    <ClCompile Include="..\private\Npc.cpp" />
+    <ClCompile Include="..\private\NpcDoor.cpp" />
+    <ClCompile Include="..\private\Plane.cpp" />
+    <ClCompile Include="..\private\Player.cpp" />
+    <ClCompile Include="..\private\PlayerHPBar.cpp" />
+    <ClCompile Include="..\private\PlayerTrigger.cpp" />
+    <ClCompile Include="..\private\PlayerTrigger_Body.cpp" />
+    <ClCompile Include="..\private\PlayerTrigger_Parkour.cpp" />
+    <ClCompile Include="..\private\PlayerTrigger_Sphere.cpp" />
+    <ClCompile Include="..\private\Player_AnimState.cpp" />
+    <ClCompile Include="..\private\Player_Ball.cpp" />
+    <ClCompile Include="..\private\Player_Balling.cpp" />
+    <ClCompile Include="..\private\Player_BrainStom.cpp" />
+    <ClCompile Include="..\private\Player_BrainWashing.cpp" />
+    <ClCompile Include="..\private\Player_ComboAttack.cpp" />
+    <ClCompile Include="..\private\Player_Dash.cpp" />
+    <ClCompile Include="..\private\Player_Dash_Attack.cpp" />
+    <ClCompile Include="..\private\Player_Dead.cpp" />
+    <ClCompile Include="..\private\Player_Dodge.cpp" />
+    <ClCompile Include="..\private\Player_DownAttack.cpp" />
+    <ClCompile Include="..\private\Player_Falling.cpp" />
+    <ClCompile Include="..\private\Player_Floting.cpp" />
+    <ClCompile Include="..\private\Player_GrabAttack.cpp" />
+    <ClCompile Include="..\private\Player_GrabBack.cpp" />
+    <ClCompile Include="..\private\Player_Hit.cpp" />
+    <ClCompile Include="..\private\Player_IdleAnim.cpp" />
+    <ClCompile Include="..\private\Player_Jump.cpp" />
+    <ClCompile Include="..\private\Player_Landing.cpp" />
+    <ClCompile Include="..\private\Player_Ledge.cpp" />
+    <ClCompile Include="..\private\Player_LedgeJump.cpp" />
+    <ClCompile Include="..\private\Player_LedgeMove.cpp" />
+    <ClCompile Include="..\private\Player_LeftHand.cpp" />
+    <ClCompile Include="..\private\Player_ParentAnim.cpp" />
+    <ClCompile Include="..\private\Player_Pisblast.cpp" />
+    <ClCompile Include="..\private\Player_RightHand.cpp" />
+    <ClCompile Include="..\private\Player_RunAnim.cpp" />
+    <ClCompile Include="..\private\Player_Slider.cpp" />
+    <ClCompile Include="..\private\Player_StopAnim.cpp" />
+    <ClCompile Include="..\private\Player_Walk.cpp" />
+    <ClCompile Include="..\private\PullingGrab.cpp" />
+    <ClCompile Include="..\private\PurseRing.cpp" />
+    <ClCompile Include="..\private\RectEffect.cpp" />
+    <ClCompile Include="..\private\RectEffect_Once.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Anim.cpp" />
+    <ClCompile Include="..\private\Right_Hand_ChopB.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Default.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Grab_Toss.cpp" />
+    <ClCompile Include="..\private\Right_Hand_Grap.cpp" />
+    <ClCompile Include="..\private\Right_Parent_Anim.cpp" />
+    <ClCompile Include="..\private\Run_BadIdea.cpp" />
+    <ClCompile Include="..\private\Run_Censor.cpp" />
+    <ClCompile Include="..\private\Run_CensorB.cpp" />
+    <ClCompile Include="..\private\Run_Judge.cpp" />
+    <ClCompile Include="..\private\Run_Judge_UA.cpp" />
+    <ClCompile Include="..\private\Scene_Demo.cpp" />
+    <ClCompile Include="..\private\Scene_Loading.cpp" />
+    <ClCompile Include="..\private\Scene_Logo.cpp" />
+    <ClCompile Include="..\private\Loader.cpp" />
+    <ClCompile Include="..\private\MainApp.cpp" />
+    <ClCompile Include="..\private\Scene_Stage01.cpp" />
+    <ClCompile Include="..\private\Selector.cpp" />
+    <ClCompile Include="..\private\Sequence.cpp" />
+    <ClCompile Include="..\private\Skill_BrainStrom.cpp" />
+    <ClCompile Include="..\private\Skill_PisBlast.cpp" />
+    <ClCompile Include="..\private\Skill_UI.cpp" />
+    <ClCompile Include="..\private\SkyBox.cpp" />
+    <ClCompile Include="..\private\SlidingMesh.cpp" />
+    <ClCompile Include="..\private\Spawn_BadIdea.cpp" />
+    <ClCompile Include="..\private\Spawn_Censor.cpp" />
+    <ClCompile Include="..\private\Spawn_CensorB.cpp" />
+    <ClCompile Include="..\private\Spawn_Doubt.cpp" />
+    <ClCompile Include="..\private\Spawn_Judge.cpp" />
+    <ClCompile Include="..\private\SpinSwipe.cpp" />
+    <ClCompile Include="..\private\Stage02Button.cpp" />
+    <ClCompile Include="..\private\Static_Mesh.cpp" />
+    <ClCompile Include="..\private\EnviromentTrigger.cpp" />
+    <ClCompile Include="..\private\Tooth.cpp" />
+    <ClCompile Include="..\private\ToothFairy.cpp" />
+    <ClCompile Include="..\private\Treasure.cpp" />
+    <ClCompile Include="..\private\TumbleAttack.cpp" />
+    <ClCompile Include="..\private\Tuto_MessageUI.cpp" />
+    <ClCompile Include="..\private\Tuto_ScriptUI.cpp" />
+    <ClCompile Include="..\private\VentDoor.cpp" />
+    <ClCompile Include="..\private\Walk_BadIdea.cpp" />
+    <ClCompile Include="..\private\Walk_Censor.cpp" />
+    <ClCompile Include="..\private\Walk_CensorB.cpp" />
+    <ClCompile Include="..\private\Walk_Judge.cpp" />
+    <ClCompile Include="..\private\Walk_Judge_UA.cpp" />
+    <ClCompile Include="..\private\WallCollision.cpp" />
+    <ClCompile Include="..\private\Washing_Trail.cpp" />
+    <ClCompile Include="..\private\Water.cpp" />
+    <ClCompile Include="..\private\WaterWave.cpp" />
+    <ClCompile Include="..\private\ZiantLoboto.cpp" />
+    <ClCompile Include="..\private\Zip.cpp" />
+    <ClCompile Include="..\public\Cracked_Denture.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
